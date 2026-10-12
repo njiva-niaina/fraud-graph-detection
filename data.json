@@ -1,0 +1,1569 @@
+{
+  "customers": [
+    {
+      "id": "C001",
+      "fullName": "Alice Martin",
+      "registrationDate": "2026-01-19",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000001"
+      ],
+      "phones": [
+        "+33639980001"
+      ],
+      "emails": [
+        "alice.martin@example.com"
+      ],
+      "devices": [
+        "DEV-001"
+      ],
+      "addresses": [
+        "1 Avenue des Tilleuls, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O013",
+          "orderDate": "2026-04-23",
+          "amount": 450.0,
+          "invoice": {
+            "id": "I013",
+            "dueDate": "2026-05-23",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "fullName": "Bruno Leroy",
+      "registrationDate": "2026-01-08",
+      "flaggedFraud": true,
+      "ibans": [
+        "XX0000000000000000000002"
+      ],
+      "phones": [
+        "+33639980002"
+      ],
+      "emails": [
+        "bruno.leroy@example.com"
+      ],
+      "devices": [
+        "DEV-002"
+      ],
+      "addresses": [
+        "2 Rue du Moulin, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O012",
+          "orderDate": "2026-05-30",
+          "amount": 1200.5,
+          "invoice": {
+            "id": "I012",
+            "dueDate": "2026-06-29",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "fullName": "Claire Bernard",
+      "registrationDate": "2026-02-09",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000001"
+      ],
+      "phones": [
+        "+33639980003"
+      ],
+      "emails": [
+        "claire.bernard@example.com"
+      ],
+      "devices": [
+        "DEV-003"
+      ],
+      "addresses": [
+        "1 Avenue des Tilleuls, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O014",
+          "orderDate": "2026-05-08",
+          "amount": 150.0,
+          "invoice": {
+            "id": "I014",
+            "dueDate": "2026-06-07",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "fullName": "David Thomas",
+      "registrationDate": "2024-03-12",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000004"
+      ],
+      "phones": [
+        "+33639980004"
+      ],
+      "emails": [
+        "david.thomas@example.com"
+      ],
+      "devices": [
+        "DEV-004"
+      ],
+      "addresses": [
+        "4 Rue des Écoles, 31000 Toulouse"
+      ],
+      "orders": [
+        {
+          "id": "O021",
+          "orderDate": "2026-10-02",
+          "amount": 4200.0,
+          "invoice": {
+            "id": "I021",
+            "dueDate": "2026-11-01",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "fullName": "Elodie Robert",
+      "registrationDate": "2026-02-02",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000005"
+      ],
+      "phones": [
+        "+33639980005"
+      ],
+      "emails": [
+        "elodie.robert@example.com"
+      ],
+      "devices": [
+        "DEV-005"
+      ],
+      "addresses": [
+        "5 Allée des Cèdres, 33000 Bordeaux"
+      ],
+      "orders": [
+        {
+          "id": "O015",
+          "orderDate": "2026-10-06",
+          "amount": 890.0,
+          "invoice": {
+            "id": "I015",
+            "dueDate": "2026-11-05",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "fullName": "Fabrice Petit",
+      "registrationDate": "2026-01-22",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000006"
+      ],
+      "phones": [
+        "+33639980006"
+      ],
+      "emails": [
+        "fabrice.petit@example.com"
+      ],
+      "devices": [
+        "DEV-005"
+      ],
+      "addresses": [
+        "6 Rue de la Gare, 75011 Paris"
+      ],
+      "orders": [
+        {
+          "id": "O016",
+          "orderDate": "2026-03-19",
+          "amount": 210.0,
+          "invoice": {
+            "id": "I016",
+            "dueDate": "2026-04-18",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "fullName": "Géraldine Roux",
+      "registrationDate": "2026-01-18",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000007"
+      ],
+      "phones": [
+        "+33639980007"
+      ],
+      "emails": [
+        "geraldine.roux@example.com"
+      ],
+      "devices": [
+        "DEV-007"
+      ],
+      "addresses": [
+        "7 Chemin des Vignes, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O022",
+          "orderDate": "2026-05-23",
+          "amount": 155.18,
+          "invoice": {
+            "id": "I022",
+            "dueDate": "2026-06-22",
+            "paymentStatus": "paid"
+          }
+        },
+        {
+          "id": "O023",
+          "orderDate": "2026-09-28",
+          "amount": 472.32,
+          "invoice": {
+            "id": "I023",
+            "dueDate": "2026-10-28",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "fullName": "Hervé Richard",
+      "registrationDate": "2026-03-15",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000008"
+      ],
+      "phones": [
+        "+33639980008"
+      ],
+      "emails": [
+        "herve.richard@example.com"
+      ],
+      "devices": [
+        "DEV-008"
+      ],
+      "addresses": [
+        "8 Rue des Lilas, 13006 Marseille"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C009",
+      "fullName": "Isabelle Durand",
+      "registrationDate": "2026-01-16",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000009"
+      ],
+      "phones": [
+        "+33639980009"
+      ],
+      "emails": [
+        "isabelle.durand@example.com"
+      ],
+      "devices": [
+        "DEV-009"
+      ],
+      "addresses": [
+        "9 Avenue des Tilleuls, 59000 Lille"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C010",
+      "fullName": "Julien Moreau",
+      "registrationDate": "2026-02-28",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000010"
+      ],
+      "phones": [
+        "+33639980010"
+      ],
+      "emails": [
+        "julien.moreau@example.com"
+      ],
+      "devices": [
+        "DEV-010"
+      ],
+      "addresses": [
+        "10 Rue du Moulin, 31000 Toulouse"
+      ],
+      "orders": [
+        {
+          "id": "O024",
+          "orderDate": "2026-05-20",
+          "amount": 567.46,
+          "invoice": {
+            "id": "I024",
+            "dueDate": "2026-06-19",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "fullName": "Karine Simon",
+      "registrationDate": "2026-01-09",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000011"
+      ],
+      "phones": [
+        "+33639980011"
+      ],
+      "emails": [
+        "karine.simon@example.com"
+      ],
+      "devices": [
+        "DEV-011"
+      ],
+      "addresses": [
+        "11 Boulevard des Acacias, 33000 Bordeaux"
+      ],
+      "orders": [
+        {
+          "id": "O025",
+          "orderDate": "2026-06-26",
+          "amount": 551.29,
+          "invoice": {
+            "id": "I025",
+            "dueDate": "2026-07-26",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "fullName": "Laurent Michel",
+      "registrationDate": "2026-01-08",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000012"
+      ],
+      "phones": [
+        "+33639980012"
+      ],
+      "emails": [
+        "laurent.michel@example.com"
+      ],
+      "devices": [
+        "DEV-012"
+      ],
+      "addresses": [
+        "12 Rue des Écoles, 75011 Paris"
+      ],
+      "orders": [
+        {
+          "id": "O026",
+          "orderDate": "2026-05-07",
+          "amount": 349.98,
+          "invoice": {
+            "id": "I026",
+            "dueDate": "2026-06-06",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "fullName": "Monique Lefebvre",
+      "registrationDate": "2026-01-16",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000013"
+      ],
+      "phones": [
+        "+33639980013"
+      ],
+      "emails": [
+        "monique.lefebvre@example.com"
+      ],
+      "devices": [
+        "DEV-013"
+      ],
+      "addresses": [
+        "13 Allée des Cèdres, 69003 Lyon"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C014",
+      "fullName": "Nicolas Leroy",
+      "registrationDate": "2026-02-01",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000014"
+      ],
+      "phones": [
+        "+33639980014"
+      ],
+      "emails": [
+        "nicolas.leroy@example.com"
+      ],
+      "devices": [
+        "DEV-014"
+      ],
+      "addresses": [
+        "14 Rue de la Gare, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O027",
+          "orderDate": "2026-04-05",
+          "amount": 155.01,
+          "invoice": {
+            "id": "I027",
+            "dueDate": "2026-05-05",
+            "paymentStatus": "paid"
+          }
+        },
+        {
+          "id": "O028",
+          "orderDate": "2026-03-13",
+          "amount": 81.82,
+          "invoice": {
+            "id": "I028",
+            "dueDate": "2026-04-12",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "fullName": "Odile Bonnet",
+      "registrationDate": "2026-02-03",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000015"
+      ],
+      "phones": [
+        "+33639980015"
+      ],
+      "emails": [
+        "odile.bonnet@example.com"
+      ],
+      "devices": [
+        "DEV-015"
+      ],
+      "addresses": [
+        "15 Chemin des Vignes, 59000 Lille"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C016",
+      "fullName": "Pascal Dupont",
+      "registrationDate": "2026-03-10",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000016"
+      ],
+      "phones": [
+        "+33639980016"
+      ],
+      "emails": [
+        "pascal.dupont@example.com"
+      ],
+      "devices": [
+        "DEV-016"
+      ],
+      "addresses": [
+        "16 Rue des Lilas, 31000 Toulouse"
+      ],
+      "orders": [
+        {
+          "id": "O017",
+          "orderDate": "2026-04-13",
+          "amount": 340.0,
+          "invoice": {
+            "id": "I017",
+            "dueDate": "2026-05-13",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C017",
+      "fullName": "Quentin Lambert",
+      "registrationDate": "2026-01-08",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000017"
+      ],
+      "phones": [
+        "+33639980017"
+      ],
+      "emails": [
+        "quentin.lambert@example.com"
+      ],
+      "devices": [
+        "DEV-017"
+      ],
+      "addresses": [
+        "17 Avenue des Tilleuls, 33000 Bordeaux"
+      ],
+      "orders": [
+        {
+          "id": "O029",
+          "orderDate": "2026-03-17",
+          "amount": 270.63,
+          "invoice": {
+            "id": "I029",
+            "dueDate": "2026-04-16",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C018",
+      "fullName": "Rachel Martinez",
+      "registrationDate": "2026-01-30",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000018"
+      ],
+      "phones": [
+        "+33639980018"
+      ],
+      "emails": [
+        "rachel.martinez@example.com"
+      ],
+      "devices": [
+        "DEV-018"
+      ],
+      "addresses": [
+        "18 Rue du Moulin, 75011 Paris"
+      ],
+      "orders": [
+        {
+          "id": "O030",
+          "orderDate": "2026-07-20",
+          "amount": 331.6,
+          "invoice": {
+            "id": "I030",
+            "dueDate": "2026-08-19",
+            "paymentStatus": "overdue"
+          }
+        },
+        {
+          "id": "O031",
+          "orderDate": "2026-10-06",
+          "amount": 36.54,
+          "invoice": {
+            "id": "I031",
+            "dueDate": "2026-11-05",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "fullName": "Stéphane Gautier",
+      "registrationDate": "2026-03-15",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000019"
+      ],
+      "phones": [
+        "+33639980019"
+      ],
+      "emails": [
+        "stephane.gautier@example.com"
+      ],
+      "devices": [
+        "DEV-019"
+      ],
+      "addresses": [
+        "19 Boulevard des Acacias, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O032",
+          "orderDate": "2026-05-27",
+          "amount": 468.1,
+          "invoice": {
+            "id": "I032",
+            "dueDate": "2026-06-26",
+            "paymentStatus": "paid"
+          }
+        },
+        {
+          "id": "O033",
+          "orderDate": "2026-06-25",
+          "amount": 277.82,
+          "invoice": {
+            "id": "I033",
+            "dueDate": "2026-07-25",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C020",
+      "fullName": "Tatiana Faure",
+      "registrationDate": "2026-02-27",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000020"
+      ],
+      "phones": [
+        "+33639980020"
+      ],
+      "emails": [
+        "tatiana.faure@example.com"
+      ],
+      "devices": [
+        "DEV-020"
+      ],
+      "addresses": [
+        "20 Rue des Écoles, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O034",
+          "orderDate": "2026-10-03",
+          "amount": 180.13,
+          "invoice": {
+            "id": "I034",
+            "dueDate": "2026-11-02",
+            "paymentStatus": "pending"
+          }
+        },
+        {
+          "id": "O035",
+          "orderDate": "2026-03-28",
+          "amount": 319.38,
+          "invoice": {
+            "id": "I035",
+            "dueDate": "2026-04-27",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C021",
+      "fullName": "Ulysse Roussel",
+      "registrationDate": "2026-02-02",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000021"
+      ],
+      "phones": [
+        "+33639980021"
+      ],
+      "emails": [
+        "ulysse.roussel@example.com"
+      ],
+      "devices": [
+        "DEV-021"
+      ],
+      "addresses": [
+        "21 Allée des Cèdres, 59000 Lille"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C022",
+      "fullName": "Valérie Mercier",
+      "registrationDate": "2026-03-03",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000022"
+      ],
+      "phones": [
+        "+33639980022"
+      ],
+      "emails": [
+        "valerie.mercier@example.com"
+      ],
+      "devices": [
+        "DEV-022"
+      ],
+      "addresses": [
+        "22 Rue de la Gare, 31000 Toulouse"
+      ],
+      "orders": [
+        {
+          "id": "O036",
+          "orderDate": "2026-06-04",
+          "amount": 143.38,
+          "invoice": {
+            "id": "I036",
+            "dueDate": "2026-07-04",
+            "paymentStatus": "paid"
+          }
+        },
+        {
+          "id": "O037",
+          "orderDate": "2026-07-14",
+          "amount": 337.45,
+          "invoice": {
+            "id": "I037",
+            "dueDate": "2026-08-13",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "fullName": "William Blanc",
+      "registrationDate": "2026-02-09",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000023"
+      ],
+      "phones": [
+        "+33639980023"
+      ],
+      "emails": [
+        "william.blanc@example.com"
+      ],
+      "devices": [
+        "DEV-023"
+      ],
+      "addresses": [
+        "23 Chemin des Vignes, 33000 Bordeaux"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C024",
+      "fullName": "Xavier Guerin",
+      "registrationDate": "2026-01-05",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000024"
+      ],
+      "phones": [
+        "+33639980024"
+      ],
+      "emails": [
+        "xavier.guerin@example.com"
+      ],
+      "devices": [
+        "DEV-024"
+      ],
+      "addresses": [
+        "24 Rue des Lilas, 75011 Paris"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C025",
+      "fullName": "Yasmine Henry",
+      "registrationDate": "2026-01-25",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000025"
+      ],
+      "phones": [
+        "+33639980025"
+      ],
+      "emails": [
+        "yasmine.henry@example.com"
+      ],
+      "devices": [
+        "DEV-025"
+      ],
+      "addresses": [
+        "25 Avenue des Tilleuls, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O038",
+          "orderDate": "2026-05-18",
+          "amount": 530.87,
+          "invoice": {
+            "id": "I038",
+            "dueDate": "2026-06-17",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "fullName": "Zacharie Masson",
+      "registrationDate": "2026-02-28",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000016"
+      ],
+      "phones": [
+        "+33639980026"
+      ],
+      "emails": [
+        "zacharie.masson@example.com"
+      ],
+      "devices": [
+        "DEV-026"
+      ],
+      "addresses": [
+        "26 Rue du Moulin, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O018",
+          "orderDate": "2026-07-15",
+          "amount": 75.0,
+          "invoice": {
+            "id": "I018",
+            "dueDate": "2026-08-14",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "fullName": "Aurore Chevallier",
+      "registrationDate": "2026-02-17",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000027"
+      ],
+      "phones": [
+        "+33639980027"
+      ],
+      "emails": [
+        "aurore.chevallier@example.com"
+      ],
+      "devices": [
+        "DEV-027"
+      ],
+      "addresses": [
+        "27 Boulevard des Acacias, 59000 Lille"
+      ],
+      "orders": [
+        {
+          "id": "O039",
+          "orderDate": "2026-09-26",
+          "amount": 569.76,
+          "invoice": {
+            "id": "I039",
+            "dueDate": "2026-10-26",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C028",
+      "fullName": "Benoît Collet",
+      "registrationDate": "2026-02-09",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000028"
+      ],
+      "phones": [
+        "+33639980028"
+      ],
+      "emails": [
+        "benoit.collet@example.com"
+      ],
+      "devices": [
+        "DEV-028"
+      ],
+      "addresses": [
+        "28 Rue des Écoles, 31000 Toulouse"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C029",
+      "fullName": "Chantal Vidal",
+      "registrationDate": "2026-01-24",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000029"
+      ],
+      "phones": [
+        "+33639980029"
+      ],
+      "emails": [
+        "chantal.vidal@example.com"
+      ],
+      "devices": [
+        "DEV-029"
+      ],
+      "addresses": [
+        "29 Allée des Cèdres, 33000 Bordeaux"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C030",
+      "fullName": "Damien Rey",
+      "registrationDate": "2026-02-01",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000030"
+      ],
+      "phones": [
+        "+33639980030"
+      ],
+      "emails": [
+        "damien.rey@example.com"
+      ],
+      "devices": [
+        "DEV-030"
+      ],
+      "addresses": [
+        "30 Rue de la Gare, 75011 Paris"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C031",
+      "fullName": "Émilie Chevalier",
+      "registrationDate": "2026-02-17",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000031"
+      ],
+      "phones": [
+        "+33639980031"
+      ],
+      "emails": [
+        "emilie.chevalier@example.com"
+      ],
+      "devices": [
+        "DEV-031"
+      ],
+      "addresses": [
+        "31 Chemin des Vignes, 69003 Lyon"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C032",
+      "fullName": "François Marchand",
+      "registrationDate": "2026-01-18",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000032"
+      ],
+      "phones": [
+        "+33639980032"
+      ],
+      "emails": [
+        "francois.marchand@example.com"
+      ],
+      "devices": [
+        "DEV-032"
+      ],
+      "addresses": [
+        "32 Rue des Lilas, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O040",
+          "orderDate": "2026-05-07",
+          "amount": 343.39,
+          "invoice": {
+            "id": "I040",
+            "dueDate": "2026-06-06",
+            "paymentStatus": "paid"
+          }
+        },
+        {
+          "id": "O041",
+          "orderDate": "2026-04-24",
+          "amount": 375.76,
+          "invoice": {
+            "id": "I041",
+            "dueDate": "2026-05-24",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C033",
+      "fullName": "Gabrielle Picard",
+      "registrationDate": "2026-01-16",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000033"
+      ],
+      "phones": [
+        "+33639980033"
+      ],
+      "emails": [
+        "gabrielle.picard@example.com"
+      ],
+      "devices": [
+        "DEV-033"
+      ],
+      "addresses": [
+        "33 Avenue des Tilleuls, 59000 Lille"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C034",
+      "fullName": "Henri Meyer",
+      "registrationDate": "2026-02-22",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000034"
+      ],
+      "phones": [
+        "+33639980034"
+      ],
+      "emails": [
+        "henri.meyer@example.com"
+      ],
+      "devices": [
+        "DEV-034"
+      ],
+      "addresses": [
+        "34 Rue du Moulin, 31000 Toulouse"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C035",
+      "fullName": "Inès Muller",
+      "registrationDate": "2026-01-17",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000035"
+      ],
+      "phones": [
+        "+33639980035"
+      ],
+      "emails": [
+        "ines.muller@example.com"
+      ],
+      "devices": [
+        "DEV-035"
+      ],
+      "addresses": [
+        "35 Boulevard des Acacias, 33000 Bordeaux"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C036",
+      "fullName": "Jérôme Lehmann",
+      "registrationDate": "2026-02-10",
+      "flaggedFraud": true,
+      "ibans": [
+        "XX0000000000000000000036"
+      ],
+      "phones": [
+        "+33639980036"
+      ],
+      "emails": [
+        "jerome.lehmann@example.com"
+      ],
+      "devices": [
+        "DEV-RING-01"
+      ],
+      "addresses": [
+        "36 Rue des Écoles, 75011 Paris"
+      ],
+      "orders": [
+        {
+          "id": "O001",
+          "orderDate": "2026-05-14",
+          "amount": 2400.0,
+          "invoice": {
+            "id": "I001",
+            "dueDate": "2026-06-13",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C037",
+      "fullName": "Laure Weber",
+      "registrationDate": "2026-02-11",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000037"
+      ],
+      "phones": [
+        "+33639980036"
+      ],
+      "emails": [
+        "laure.weber@example.com"
+      ],
+      "devices": [
+        "DEV-RING-01"
+      ],
+      "addresses": [
+        "37 Allée des Cèdres, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O002",
+          "orderDate": "2026-03-21",
+          "amount": 1850.0,
+          "invoice": {
+            "id": "I002",
+            "dueDate": "2026-04-20",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C038",
+      "fullName": "Marc Hoffmann",
+      "registrationDate": "2026-02-12",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000038"
+      ],
+      "phones": [
+        "+33639980038"
+      ],
+      "emails": [
+        "marc.hoffmann@example.com"
+      ],
+      "devices": [
+        "DEV-RING-01"
+      ],
+      "addresses": [
+        "38 Rue de la Gare, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O003",
+          "orderDate": "2026-04-29",
+          "amount": 2100.0,
+          "invoice": {
+            "id": "I003",
+            "dueDate": "2026-05-29",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C039",
+      "fullName": "Nathalie Klein",
+      "registrationDate": "2026-02-10",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000038"
+      ],
+      "phones": [
+        "+33639980039"
+      ],
+      "emails": [
+        "nathalie.klein@example.com"
+      ],
+      "devices": [
+        "DEV-RING-01"
+      ],
+      "addresses": [
+        "39 Chemin des Vignes, 59000 Lille"
+      ],
+      "orders": [
+        {
+          "id": "O004",
+          "orderDate": "2026-10-08",
+          "amount": 1950.0,
+          "invoice": {
+            "id": "I004",
+            "dueDate": "2026-11-07",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C040",
+      "fullName": "Olivier Schwartz",
+      "registrationDate": "2026-02-20",
+      "flaggedFraud": true,
+      "ibans": [
+        "XX0000000000000000000040"
+      ],
+      "phones": [
+        "+33639980040"
+      ],
+      "emails": [
+        "olivier.schwartz@example.com"
+      ],
+      "devices": [
+        "DEV-040"
+      ],
+      "addresses": [
+        "40 Rue des Lilas, 31000 Toulouse"
+      ],
+      "orders": [
+        {
+          "id": "O005",
+          "orderDate": "2026-03-26",
+          "amount": 1700.0,
+          "invoice": {
+            "id": "I005",
+            "dueDate": "2026-04-25",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C041",
+      "fullName": "Pauline Wagner",
+      "registrationDate": "2026-02-21",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000041"
+      ],
+      "phones": [
+        "+33639980040"
+      ],
+      "emails": [
+        "pauline.wagner@example.com"
+      ],
+      "devices": [
+        "DEV-CHAIN-01"
+      ],
+      "addresses": [
+        "41 Avenue des Tilleuls, 33000 Bordeaux"
+      ],
+      "orders": [
+        {
+          "id": "O006",
+          "orderDate": "2026-06-06",
+          "amount": 980.0,
+          "invoice": {
+            "id": "I006",
+            "dueDate": "2026-07-06",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "fullName": "Romain Wolf",
+      "registrationDate": "2026-02-22",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000042"
+      ],
+      "phones": [
+        "+33639980042"
+      ],
+      "emails": [
+        "romain.wolf@example.com"
+      ],
+      "devices": [
+        "DEV-CHAIN-01"
+      ],
+      "addresses": [
+        "42 Rue du Moulin, 75011 Paris"
+      ],
+      "orders": [
+        {
+          "id": "O007",
+          "orderDate": "2026-09-29",
+          "amount": 1200.0,
+          "invoice": {
+            "id": "I007",
+            "dueDate": "2026-10-29",
+            "paymentStatus": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C043",
+      "fullName": "Sophie Bauer",
+      "registrationDate": "2026-02-20",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000042"
+      ],
+      "phones": [
+        "+33639980043"
+      ],
+      "emails": [
+        "sophie.bauer@example.com"
+      ],
+      "devices": [
+        "DEV-043"
+      ],
+      "addresses": [
+        "43 Boulevard des Acacias, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O008",
+          "orderDate": "2026-06-25",
+          "amount": 150.0,
+          "invoice": {
+            "id": "I008",
+            "dueDate": "2026-07-25",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C044",
+      "fullName": "Thierry Koch",
+      "registrationDate": "2026-02-21",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000044"
+      ],
+      "phones": [
+        "+33639980044"
+      ],
+      "emails": [
+        "thierry.koch@example.com"
+      ],
+      "devices": [
+        "DEV-044"
+      ],
+      "addresses": [
+        "43 Boulevard des Acacias, 69003 Lyon"
+      ],
+      "orders": [
+        {
+          "id": "O009",
+          "orderDate": "2026-06-02",
+          "amount": 89.9,
+          "invoice": {
+            "id": "I009",
+            "dueDate": "2026-07-02",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C045",
+      "fullName": "Véronique Zimmermann",
+      "registrationDate": "2026-02-11",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000045"
+      ],
+      "phones": [
+        "+33639980046"
+      ],
+      "emails": [
+        "veronique.zimmermann@example.com"
+      ],
+      "devices": [
+        "DEV-045"
+      ],
+      "addresses": [
+        "45 Allée des Cèdres, 59000 Lille"
+      ],
+      "orders": [
+        {
+          "id": "O010",
+          "orderDate": "2026-04-11",
+          "amount": 120.0,
+          "invoice": {
+            "id": "I010",
+            "dueDate": "2026-05-11",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C046",
+      "fullName": "Yannick Meyer",
+      "registrationDate": "2026-02-20",
+      "flaggedFraud": true,
+      "ibans": [
+        "XX0000000000000000000046"
+      ],
+      "phones": [
+        "+33639980046"
+      ],
+      "emails": [
+        "yannick.meyer@example.com"
+      ],
+      "devices": [
+        "DEV-046"
+      ],
+      "addresses": [
+        "46 Rue de la Gare, 31000 Toulouse"
+      ],
+      "orders": [
+        {
+          "id": "O011",
+          "orderDate": "2026-06-03",
+          "amount": 1600.0,
+          "invoice": {
+            "id": "I011",
+            "dueDate": "2026-07-03",
+            "paymentStatus": "overdue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C047",
+      "fullName": "Zoé Decker",
+      "registrationDate": "2026-01-29",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000047"
+      ],
+      "phones": [
+        "+33639980047"
+      ],
+      "emails": [
+        "zoe.decker@example.com"
+      ],
+      "devices": [
+        "DEV-047"
+      ],
+      "addresses": [
+        "47 Chemin des Vignes, 33000 Bordeaux"
+      ],
+      "orders": [
+        {
+          "id": "O019",
+          "orderDate": "2026-05-02",
+          "amount": 60.0,
+          "invoice": {
+            "id": "I019",
+            "dueDate": "2026-06-01",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C048",
+      "fullName": "Alain Berger",
+      "registrationDate": "2026-01-13",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000048"
+      ],
+      "phones": [
+        "+33639980047"
+      ],
+      "emails": [
+        "alain.berger@example.com"
+      ],
+      "devices": [
+        "DEV-048"
+      ],
+      "addresses": [
+        "47 Chemin des Vignes, 33000 Bordeaux"
+      ],
+      "orders": [
+        {
+          "id": "O020",
+          "orderDate": "2026-04-11",
+          "amount": 95.0,
+          "invoice": {
+            "id": "I020",
+            "dueDate": "2026-05-11",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C049",
+      "fullName": "Béatrice Lang",
+      "registrationDate": "2026-01-10",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000049"
+      ],
+      "phones": [
+        "+33639980049"
+      ],
+      "emails": [
+        "beatrice.lang@example.com"
+      ],
+      "devices": [
+        "DEV-049"
+      ],
+      "addresses": [
+        "49 Avenue des Tilleuls, 69003 Lyon"
+      ],
+      "orders": []
+    },
+    {
+      "id": "C050",
+      "fullName": "Christian Fuchs",
+      "registrationDate": "2026-02-03",
+      "flaggedFraud": false,
+      "ibans": [
+        "XX0000000000000000000050"
+      ],
+      "phones": [
+        "+33639980050"
+      ],
+      "emails": [
+        "christian.fuchs@example.com"
+      ],
+      "devices": [
+        "DEV-050"
+      ],
+      "addresses": [
+        "50 Rue du Moulin, 13006 Marseille"
+      ],
+      "orders": [
+        {
+          "id": "O042",
+          "orderDate": "2026-07-11",
+          "amount": 279.72,
+          "invoice": {
+            "id": "I042",
+            "dueDate": "2026-08-10",
+            "paymentStatus": "paid"
+          }
+        },
+        {
+          "id": "O043",
+          "orderDate": "2026-03-17",
+          "amount": 171.31,
+          "invoice": {
+            "id": "I043",
+            "dueDate": "2026-04-16",
+            "paymentStatus": "paid"
+          }
+        }
+      ]
+    }
+  ]
+}

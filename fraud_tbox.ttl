@@ -1,0 +1,233 @@
+@prefix : <http://example.org/fraud/tbox#> .
+@prefix ext: <http://example.org/fraud/tbox#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.org/fraud/tbox> .
+
+<http://example.org/fraud/tbox> rdf:type owl:Ontology ;
+                                 rdfs:comment "An ontology for representing customers, identifiers, orders, invoices, and relationships that can support fraud detection and risk analysis."@en ;
+                                 rdfs:label "Fraud Detection Ontology"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://example.org/fraud/tbox#hasEmail
+ext:hasEmail rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf ext:hasIdentifier ;
+             owl:inverseOf ext:isEmailOf ;
+             rdfs:range ext:EmailAddress .
+
+
+###  http://example.org/fraud/tbox#hasIban
+ext:hasIban rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf ext:hasIdentifier ;
+            owl:inverseOf ext:isIbanOf ;
+            rdfs:range ext:Iban .
+
+
+###  http://example.org/fraud/tbox#hasIdentifier
+ext:hasIdentifier rdf:type owl:ObjectProperty ;
+                  rdfs:domain ext:Customer ;
+                  rdfs:range ext:Identifier .
+
+
+###  http://example.org/fraud/tbox#hasInvoice
+ext:hasInvoice rdf:type owl:ObjectProperty ;
+               owl:inverseOf ext:invoiceFor .
+
+
+###  http://example.org/fraud/tbox#hasPhone
+ext:hasPhone rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf ext:hasIdentifier ;
+             owl:inverseOf ext:isPhoneOf ;
+             rdfs:range ext:PhoneNumber .
+
+
+###  http://example.org/fraud/tbox#invoiceFor
+ext:invoiceFor rdf:type owl:ObjectProperty ;
+               rdfs:domain ext:Invoice ;
+               rdfs:range ext:Order .
+
+
+###  http://example.org/fraud/tbox#isAddressOf
+ext:isAddressOf rdf:type owl:ObjectProperty ;
+                owl:inverseOf ext:livesAt .
+
+
+###  http://example.org/fraud/tbox#isEmailOf
+ext:isEmailOf rdf:type owl:ObjectProperty .
+
+
+###  http://example.org/fraud/tbox#isIbanOf
+ext:isIbanOf rdf:type owl:ObjectProperty .
+
+
+###  http://example.org/fraud/tbox#isPhoneOf
+ext:isPhoneOf rdf:type owl:ObjectProperty .
+
+
+###  http://example.org/fraud/tbox#isUsedBy
+ext:isUsedBy rdf:type owl:ObjectProperty ;
+             owl:inverseOf ext:usesDevice .
+
+
+###  http://example.org/fraud/tbox#livesAt
+ext:livesAt rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf ext:hasIdentifier ;
+            rdfs:range ext:PostalAddress .
+
+
+###  http://example.org/fraud/tbox#placed
+ext:placed rdf:type owl:ObjectProperty ;
+           owl:inverseOf ext:placedBy .
+
+
+###  http://example.org/fraud/tbox#placedBy
+ext:placedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain ext:Order ;
+             rdfs:range ext:Customer .
+
+
+###  http://example.org/fraud/tbox#sharesIdentifierWith
+ext:sharesIdentifierWith rdf:type owl:ObjectProperty ,
+                                  owl:SymmetricProperty ;
+                         rdfs:domain ext:Customer ;
+                         rdfs:range ext:Customer .
+
+
+###  http://example.org/fraud/tbox#usesDevice
+ext:usesDevice rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ext:hasIdentifier ;
+               rdfs:range ext:Device .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://example.org/fraud/tbox#amount
+ext:amount rdf:type owl:DatatypeProperty ;
+           rdfs:domain ext:Order .
+
+
+###  http://example.org/fraud/tbox#dueDate
+ext:dueDate rdf:type owl:DatatypeProperty ;
+            rdfs:domain ext:Invoice .
+
+
+###  http://example.org/fraud/tbox#fullName
+ext:fullName rdf:type owl:DatatypeProperty ;
+             rdfs:domain ext:Customer .
+
+
+###  http://example.org/fraud/tbox#identifierValue
+ext:identifierValue rdf:type owl:DatatypeProperty ;
+                    rdfs:domain ext:Identifier .
+
+
+###  http://example.org/fraud/tbox#orderDate
+ext:orderDate rdf:type owl:DatatypeProperty ;
+              rdfs:domain ext:Order .
+
+
+###  http://example.org/fraud/tbox#paymentStatus
+ext:paymentStatus rdf:type owl:DatatypeProperty ;
+                  rdfs:domain ext:Invoice .
+
+
+###  http://example.org/fraud/tbox#registrationDate
+ext:registrationDate rdf:type owl:DatatypeProperty ;
+                     rdfs:domain ext:Customer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://example.org/fraud/tbox#Customer
+ext:Customer rdf:type owl:Class ;
+             owl:disjointWith ext:Identifier ,
+                              ext:Invoice ,
+                              ext:Order ;
+             rdfs:comment "Represents a person or organization registered on the platform that can place orders, provide identifying information, and be associated with potential fraudulent activities."@en ;
+             rdfs:label "Customer"@en .
+
+
+###  http://example.org/fraud/tbox#Device
+ext:Device rdf:type owl:Class ;
+           rdfs:subClassOf ext:Identifier ;
+           owl:disjointWith ext:EmailAddress ,
+                            ext:Iban ,
+                            ext:PhoneNumber ,
+                            ext:PostalAddress ;
+           rdfs:label "Device"@en ,
+                      "Represents a physical or virtual device that can be associated with a customer and used as an identifier in fraud detection."@en .
+
+
+###  http://example.org/fraud/tbox#EmailAddress
+ext:EmailAddress rdf:type owl:Class ;
+                 rdfs:subClassOf ext:Identifier ;
+                 owl:disjointWith ext:Iban ,
+                                  ext:PhoneNumber ,
+                                  ext:PostalAddress ;
+                 rdfs:comment "Represents an email address that can be associated with a customer and used to identify accounts or detect relationships between potentially fraudulent activities."@en ;
+                 rdfs:label "Email Address"@en .
+
+
+###  http://example.org/fraud/tbox#FraudulentCustomer
+ext:FraudulentCustomer rdf:type owl:Class ;
+                       rdfs:subClassOf ext:Customer ;
+                       rdfs:comment "Represents a customer identified as being involved in, or associated with, fraudulent activities."@en ;
+                       rdfs:label "Fraudulent Customer"@en .
+
+
+###  http://example.org/fraud/tbox#Iban
+ext:Iban rdf:type owl:Class ;
+         rdfs:subClassOf ext:Identifier ;
+         owl:disjointWith ext:PhoneNumber ,
+                          ext:PostalAddress ;
+         rdfs:comment "Represents an IBAN used to identify a bank account and establish relationships between customers, orders, or potentially fraudulent transactions."@en ;
+         rdfs:label "IBAN"@en .
+
+
+###  http://example.org/fraud/tbox#Identifier
+ext:Identifier rdf:type owl:Class ;
+               owl:disjointWith ext:Invoice ,
+                                ext:Order ;
+               rdfs:comment "Represents information that can be used to identify or distinguish a customer, such as an email address, phone number, postal address, bank account identifier, or device." ;
+               rdfs:label "Identifier"@en .
+
+
+###  http://example.org/fraud/tbox#Invoice
+ext:Invoice rdf:type owl:Class ;
+            owl:disjointWith ext:Order ;
+            rdfs:comment "Represents a billing document associated with an order. It may contain a due date and a payment status that can be used to assess payment risks."@en ;
+            rdfs:label "Invoice"@en .
+
+
+###  http://example.org/fraud/tbox#Order
+ext:Order rdf:type owl:Class ;
+          rdfs:comment "Represents a purchase or transaction request placed by a customer. An order may have an associated amount, a date, and one or more related invoices."@en ;
+          rdfs:label "Order"@en .
+
+
+###  http://example.org/fraud/tbox#PhoneNumber
+ext:PhoneNumber rdf:type owl:Class ;
+                rdfs:subClassOf ext:Identifier ;
+                owl:disjointWith ext:PostalAddress ;
+                rdfs:comment "Represents a telephone number associated with a customer that can be used to identify accounts and detect links between potentially fraudulent activities."@en ;
+                rdfs:label "Phone Number"@en .
+
+
+###  http://example.org/fraud/tbox#PostalAddress
+ext:PostalAddress rdf:type owl:Class ;
+                  rdfs:subClassOf ext:Identifier ;
+                  rdfs:comment "Represents a postal address associated with a customer that can help identify shared addresses and relationships between accounts involved in potentially fraudulent activities."@en ;
+                  rdfs:label "Postal Address"@en .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

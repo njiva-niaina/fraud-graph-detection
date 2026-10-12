@@ -1,0 +1,1590 @@
+@prefix exa: <http://example.org/fraud/abox#> .
+@prefix ext: <http://example.org/fraud/tbox#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+exa:customer_C008 a ext:Customer ;
+    ext:fullName "Hervé Richard"^^xsd:string ;
+    ext:hasEmail exa:email_95b709e592 ;
+    ext:hasIban exa:iban_XX0000000000000000000008 ;
+    ext:hasPhone exa:phone_33639980008 ;
+    ext:livesAt exa:addr_08854396d3 ;
+    ext:registrationDate "2026-03-15"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-008 .
+
+exa:customer_C009 a ext:Customer ;
+    ext:fullName "Isabelle Durand"^^xsd:string ;
+    ext:hasEmail exa:email_c5af6a34b7 ;
+    ext:hasIban exa:iban_XX0000000000000000000009 ;
+    ext:hasPhone exa:phone_33639980009 ;
+    ext:livesAt exa:addr_7db5bb72dc ;
+    ext:registrationDate "2026-01-16"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-009 .
+
+exa:customer_C013 a ext:Customer ;
+    ext:fullName "Monique Lefebvre"^^xsd:string ;
+    ext:hasEmail exa:email_c4d969c927 ;
+    ext:hasIban exa:iban_XX0000000000000000000013 ;
+    ext:hasPhone exa:phone_33639980013 ;
+    ext:livesAt exa:addr_64757f6224 ;
+    ext:registrationDate "2026-01-16"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-013 .
+
+exa:customer_C015 a ext:Customer ;
+    ext:fullName "Odile Bonnet"^^xsd:string ;
+    ext:hasEmail exa:email_785de28565 ;
+    ext:hasIban exa:iban_XX0000000000000000000015 ;
+    ext:hasPhone exa:phone_33639980015 ;
+    ext:livesAt exa:addr_d68f72682c ;
+    ext:registrationDate "2026-02-03"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-015 .
+
+exa:customer_C021 a ext:Customer ;
+    ext:fullName "Ulysse Roussel"^^xsd:string ;
+    ext:hasEmail exa:email_603c8371b8 ;
+    ext:hasIban exa:iban_XX0000000000000000000021 ;
+    ext:hasPhone exa:phone_33639980021 ;
+    ext:livesAt exa:addr_6363183137 ;
+    ext:registrationDate "2026-02-02"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-021 .
+
+exa:customer_C023 a ext:Customer ;
+    ext:fullName "William Blanc"^^xsd:string ;
+    ext:hasEmail exa:email_5ff64f5d00 ;
+    ext:hasIban exa:iban_XX0000000000000000000023 ;
+    ext:hasPhone exa:phone_33639980023 ;
+    ext:livesAt exa:addr_f4834401f8 ;
+    ext:registrationDate "2026-02-09"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-023 .
+
+exa:customer_C024 a ext:Customer ;
+    ext:fullName "Xavier Guerin"^^xsd:string ;
+    ext:hasEmail exa:email_f46a4a2904 ;
+    ext:hasIban exa:iban_XX0000000000000000000024 ;
+    ext:hasPhone exa:phone_33639980024 ;
+    ext:livesAt exa:addr_85c85565f2 ;
+    ext:registrationDate "2026-01-05"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-024 .
+
+exa:customer_C028 a ext:Customer ;
+    ext:fullName "Benoît Collet"^^xsd:string ;
+    ext:hasEmail exa:email_86b474a3ae ;
+    ext:hasIban exa:iban_XX0000000000000000000028 ;
+    ext:hasPhone exa:phone_33639980028 ;
+    ext:livesAt exa:addr_24eee40f50 ;
+    ext:registrationDate "2026-02-09"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-028 .
+
+exa:customer_C029 a ext:Customer ;
+    ext:fullName "Chantal Vidal"^^xsd:string ;
+    ext:hasEmail exa:email_e864ccf7a2 ;
+    ext:hasIban exa:iban_XX0000000000000000000029 ;
+    ext:hasPhone exa:phone_33639980029 ;
+    ext:livesAt exa:addr_f222dfb3ea ;
+    ext:registrationDate "2026-01-24"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-029 .
+
+exa:customer_C030 a ext:Customer ;
+    ext:fullName "Damien Rey"^^xsd:string ;
+    ext:hasEmail exa:email_066500deef ;
+    ext:hasIban exa:iban_XX0000000000000000000030 ;
+    ext:hasPhone exa:phone_33639980030 ;
+    ext:livesAt exa:addr_d865604cc4 ;
+    ext:registrationDate "2026-02-01"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-030 .
+
+exa:customer_C031 a ext:Customer ;
+    ext:fullName "Émilie Chevalier"^^xsd:string ;
+    ext:hasEmail exa:email_f6592fe715 ;
+    ext:hasIban exa:iban_XX0000000000000000000031 ;
+    ext:hasPhone exa:phone_33639980031 ;
+    ext:livesAt exa:addr_86c394ca8e ;
+    ext:registrationDate "2026-02-17"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-031 .
+
+exa:customer_C033 a ext:Customer ;
+    ext:fullName "Gabrielle Picard"^^xsd:string ;
+    ext:hasEmail exa:email_081e1cbb97 ;
+    ext:hasIban exa:iban_XX0000000000000000000033 ;
+    ext:hasPhone exa:phone_33639980033 ;
+    ext:livesAt exa:addr_27ee7b3470 ;
+    ext:registrationDate "2026-01-16"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-033 .
+
+exa:customer_C034 a ext:Customer ;
+    ext:fullName "Henri Meyer"^^xsd:string ;
+    ext:hasEmail exa:email_9b2a9a0642 ;
+    ext:hasIban exa:iban_XX0000000000000000000034 ;
+    ext:hasPhone exa:phone_33639980034 ;
+    ext:livesAt exa:addr_986f5b716b ;
+    ext:registrationDate "2026-02-22"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-034 .
+
+exa:customer_C035 a ext:Customer ;
+    ext:fullName "Inès Muller"^^xsd:string ;
+    ext:hasEmail exa:email_d6293d705b ;
+    ext:hasIban exa:iban_XX0000000000000000000035 ;
+    ext:hasPhone exa:phone_33639980035 ;
+    ext:livesAt exa:addr_38ea0541c4 ;
+    ext:registrationDate "2026-01-17"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-035 .
+
+exa:customer_C049 a ext:Customer ;
+    ext:fullName "Béatrice Lang"^^xsd:string ;
+    ext:hasEmail exa:email_27089da3ec ;
+    ext:hasIban exa:iban_XX0000000000000000000049 ;
+    ext:hasPhone exa:phone_33639980049 ;
+    ext:livesAt exa:addr_f50827bf8d ;
+    ext:registrationDate "2026-01-10"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-049 .
+
+exa:invoice_I001 a ext:Invoice ;
+    ext:dueDate "2026-06-13"^^xsd:date ;
+    ext:invoiceFor exa:order_O001 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I002 a ext:Invoice ;
+    ext:dueDate "2026-04-20"^^xsd:date ;
+    ext:invoiceFor exa:order_O002 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I003 a ext:Invoice ;
+    ext:dueDate "2026-05-29"^^xsd:date ;
+    ext:invoiceFor exa:order_O003 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I004 a ext:Invoice ;
+    ext:dueDate "2026-11-07"^^xsd:date ;
+    ext:invoiceFor exa:order_O004 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I005 a ext:Invoice ;
+    ext:dueDate "2026-04-25"^^xsd:date ;
+    ext:invoiceFor exa:order_O005 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I006 a ext:Invoice ;
+    ext:dueDate "2026-07-06"^^xsd:date ;
+    ext:invoiceFor exa:order_O006 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I007 a ext:Invoice ;
+    ext:dueDate "2026-10-29"^^xsd:date ;
+    ext:invoiceFor exa:order_O007 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I008 a ext:Invoice ;
+    ext:dueDate "2026-07-25"^^xsd:date ;
+    ext:invoiceFor exa:order_O008 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I009 a ext:Invoice ;
+    ext:dueDate "2026-07-02"^^xsd:date ;
+    ext:invoiceFor exa:order_O009 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I010 a ext:Invoice ;
+    ext:dueDate "2026-05-11"^^xsd:date ;
+    ext:invoiceFor exa:order_O010 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I011 a ext:Invoice ;
+    ext:dueDate "2026-07-03"^^xsd:date ;
+    ext:invoiceFor exa:order_O011 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I012 a ext:Invoice ;
+    ext:dueDate "2026-06-29"^^xsd:date ;
+    ext:invoiceFor exa:order_O012 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I013 a ext:Invoice ;
+    ext:dueDate "2026-05-23"^^xsd:date ;
+    ext:invoiceFor exa:order_O013 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I014 a ext:Invoice ;
+    ext:dueDate "2026-06-07"^^xsd:date ;
+    ext:invoiceFor exa:order_O014 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I015 a ext:Invoice ;
+    ext:dueDate "2026-11-05"^^xsd:date ;
+    ext:invoiceFor exa:order_O015 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I016 a ext:Invoice ;
+    ext:dueDate "2026-04-18"^^xsd:date ;
+    ext:invoiceFor exa:order_O016 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I017 a ext:Invoice ;
+    ext:dueDate "2026-05-13"^^xsd:date ;
+    ext:invoiceFor exa:order_O017 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I018 a ext:Invoice ;
+    ext:dueDate "2026-08-14"^^xsd:date ;
+    ext:invoiceFor exa:order_O018 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I019 a ext:Invoice ;
+    ext:dueDate "2026-06-01"^^xsd:date ;
+    ext:invoiceFor exa:order_O019 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I020 a ext:Invoice ;
+    ext:dueDate "2026-05-11"^^xsd:date ;
+    ext:invoiceFor exa:order_O020 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I021 a ext:Invoice ;
+    ext:dueDate "2026-11-01"^^xsd:date ;
+    ext:invoiceFor exa:order_O021 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I022 a ext:Invoice ;
+    ext:dueDate "2026-06-22"^^xsd:date ;
+    ext:invoiceFor exa:order_O022 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I023 a ext:Invoice ;
+    ext:dueDate "2026-10-28"^^xsd:date ;
+    ext:invoiceFor exa:order_O023 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I024 a ext:Invoice ;
+    ext:dueDate "2026-06-19"^^xsd:date ;
+    ext:invoiceFor exa:order_O024 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I025 a ext:Invoice ;
+    ext:dueDate "2026-07-26"^^xsd:date ;
+    ext:invoiceFor exa:order_O025 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I026 a ext:Invoice ;
+    ext:dueDate "2026-06-06"^^xsd:date ;
+    ext:invoiceFor exa:order_O026 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I027 a ext:Invoice ;
+    ext:dueDate "2026-05-05"^^xsd:date ;
+    ext:invoiceFor exa:order_O027 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I028 a ext:Invoice ;
+    ext:dueDate "2026-04-12"^^xsd:date ;
+    ext:invoiceFor exa:order_O028 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I029 a ext:Invoice ;
+    ext:dueDate "2026-04-16"^^xsd:date ;
+    ext:invoiceFor exa:order_O029 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I030 a ext:Invoice ;
+    ext:dueDate "2026-08-19"^^xsd:date ;
+    ext:invoiceFor exa:order_O030 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I031 a ext:Invoice ;
+    ext:dueDate "2026-11-05"^^xsd:date ;
+    ext:invoiceFor exa:order_O031 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I032 a ext:Invoice ;
+    ext:dueDate "2026-06-26"^^xsd:date ;
+    ext:invoiceFor exa:order_O032 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I033 a ext:Invoice ;
+    ext:dueDate "2026-07-25"^^xsd:date ;
+    ext:invoiceFor exa:order_O033 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I034 a ext:Invoice ;
+    ext:dueDate "2026-11-02"^^xsd:date ;
+    ext:invoiceFor exa:order_O034 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I035 a ext:Invoice ;
+    ext:dueDate "2026-04-27"^^xsd:date ;
+    ext:invoiceFor exa:order_O035 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I036 a ext:Invoice ;
+    ext:dueDate "2026-07-04"^^xsd:date ;
+    ext:invoiceFor exa:order_O036 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I037 a ext:Invoice ;
+    ext:dueDate "2026-08-13"^^xsd:date ;
+    ext:invoiceFor exa:order_O037 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I038 a ext:Invoice ;
+    ext:dueDate "2026-06-17"^^xsd:date ;
+    ext:invoiceFor exa:order_O038 ;
+    ext:paymentStatus "overdue"^^xsd:string .
+
+exa:invoice_I039 a ext:Invoice ;
+    ext:dueDate "2026-10-26"^^xsd:date ;
+    ext:invoiceFor exa:order_O039 ;
+    ext:paymentStatus "pending"^^xsd:string .
+
+exa:invoice_I040 a ext:Invoice ;
+    ext:dueDate "2026-06-06"^^xsd:date ;
+    ext:invoiceFor exa:order_O040 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I041 a ext:Invoice ;
+    ext:dueDate "2026-05-24"^^xsd:date ;
+    ext:invoiceFor exa:order_O041 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I042 a ext:Invoice ;
+    ext:dueDate "2026-08-10"^^xsd:date ;
+    ext:invoiceFor exa:order_O042 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:invoice_I043 a ext:Invoice ;
+    ext:dueDate "2026-04-16"^^xsd:date ;
+    ext:invoiceFor exa:order_O043 ;
+    ext:paymentStatus "paid"^^xsd:string .
+
+exa:addr_08854396d3 a ext:PostalAddress ;
+    ext:identifierValue "8 Rue des Lilas, 13006 Marseille"^^xsd:string .
+
+exa:addr_12bcc66f7c a ext:PostalAddress ;
+    ext:identifierValue "39 Chemin des Vignes, 59000 Lille"^^xsd:string .
+
+exa:addr_18286a2a2f a ext:PostalAddress ;
+    ext:identifierValue "19 Boulevard des Acacias, 69003 Lyon"^^xsd:string .
+
+exa:addr_200fed16a1 a ext:PostalAddress ;
+    ext:identifierValue "37 Allée des Cèdres, 69003 Lyon"^^xsd:string .
+
+exa:addr_24eee40f50 a ext:PostalAddress ;
+    ext:identifierValue "28 Rue des Écoles, 31000 Toulouse"^^xsd:string .
+
+exa:addr_2543d0281b a ext:PostalAddress ;
+    ext:identifierValue "38 Rue de la Gare, 13006 Marseille"^^xsd:string .
+
+exa:addr_2594073302 a ext:PostalAddress ;
+    ext:identifierValue "14 Rue de la Gare, 13006 Marseille"^^xsd:string .
+
+exa:addr_27ee7b3470 a ext:PostalAddress ;
+    ext:identifierValue "33 Avenue des Tilleuls, 59000 Lille"^^xsd:string .
+
+exa:addr_38ea0541c4 a ext:PostalAddress ;
+    ext:identifierValue "35 Boulevard des Acacias, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_3c02e7553a a ext:PostalAddress ;
+    ext:identifierValue "41 Avenue des Tilleuls, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_47c424e0a9 a ext:PostalAddress ;
+    ext:identifierValue "5 Allée des Cèdres, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_4e7075069d a ext:PostalAddress ;
+    ext:identifierValue "11 Boulevard des Acacias, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_50fc0371df a ext:PostalAddress ;
+    ext:identifierValue "26 Rue du Moulin, 13006 Marseille"^^xsd:string .
+
+exa:addr_547ac40aa5 a ext:PostalAddress ;
+    ext:identifierValue "50 Rue du Moulin, 13006 Marseille"^^xsd:string .
+
+exa:addr_6363183137 a ext:PostalAddress ;
+    ext:identifierValue "21 Allée des Cèdres, 59000 Lille"^^xsd:string .
+
+exa:addr_64757f6224 a ext:PostalAddress ;
+    ext:identifierValue "13 Allée des Cèdres, 69003 Lyon"^^xsd:string .
+
+exa:addr_777a3aabe4 a ext:PostalAddress ;
+    ext:identifierValue "18 Rue du Moulin, 75011 Paris"^^xsd:string .
+
+exa:addr_7db5bb72dc a ext:PostalAddress ;
+    ext:identifierValue "9 Avenue des Tilleuls, 59000 Lille"^^xsd:string .
+
+exa:addr_85c85565f2 a ext:PostalAddress ;
+    ext:identifierValue "24 Rue des Lilas, 75011 Paris"^^xsd:string .
+
+exa:addr_86c394ca8e a ext:PostalAddress ;
+    ext:identifierValue "31 Chemin des Vignes, 69003 Lyon"^^xsd:string .
+
+exa:addr_91cc251037 a ext:PostalAddress ;
+    ext:identifierValue "12 Rue des Écoles, 75011 Paris"^^xsd:string .
+
+exa:addr_937d101f46 a ext:PostalAddress ;
+    ext:identifierValue "20 Rue des Écoles, 13006 Marseille"^^xsd:string .
+
+exa:addr_9476aa4efd a ext:PostalAddress ;
+    ext:identifierValue "46 Rue de la Gare, 31000 Toulouse"^^xsd:string .
+
+exa:addr_94b8446ee0 a ext:PostalAddress ;
+    ext:identifierValue "22 Rue de la Gare, 31000 Toulouse"^^xsd:string .
+
+exa:addr_986f5b716b a ext:PostalAddress ;
+    ext:identifierValue "34 Rue du Moulin, 31000 Toulouse"^^xsd:string .
+
+exa:addr_98f09fe918 a ext:PostalAddress ;
+    ext:identifierValue "40 Rue des Lilas, 31000 Toulouse"^^xsd:string .
+
+exa:addr_995609ea03 a ext:PostalAddress ;
+    ext:identifierValue "2 Rue du Moulin, 13006 Marseille"^^xsd:string .
+
+exa:addr_a7713d59ec a ext:PostalAddress ;
+    ext:identifierValue "17 Avenue des Tilleuls, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_b6b3be7fd4 a ext:PostalAddress ;
+    ext:identifierValue "32 Rue des Lilas, 13006 Marseille"^^xsd:string .
+
+exa:addr_c948c28980 a ext:PostalAddress ;
+    ext:identifierValue "36 Rue des Écoles, 75011 Paris"^^xsd:string .
+
+exa:addr_cf5f610f79 a ext:PostalAddress ;
+    ext:identifierValue "25 Avenue des Tilleuls, 69003 Lyon"^^xsd:string .
+
+exa:addr_cfe826b2f5 a ext:PostalAddress ;
+    ext:identifierValue "4 Rue des Écoles, 31000 Toulouse"^^xsd:string .
+
+exa:addr_d68f72682c a ext:PostalAddress ;
+    ext:identifierValue "15 Chemin des Vignes, 59000 Lille"^^xsd:string .
+
+exa:addr_d865604cc4 a ext:PostalAddress ;
+    ext:identifierValue "30 Rue de la Gare, 75011 Paris"^^xsd:string .
+
+exa:addr_da0e98d89b a ext:PostalAddress ;
+    ext:identifierValue "16 Rue des Lilas, 31000 Toulouse"^^xsd:string .
+
+exa:addr_e05967d678 a ext:PostalAddress ;
+    ext:identifierValue "42 Rue du Moulin, 75011 Paris"^^xsd:string .
+
+exa:addr_e16bb2686b a ext:PostalAddress ;
+    ext:identifierValue "27 Boulevard des Acacias, 59000 Lille"^^xsd:string .
+
+exa:addr_e3eb58a9a4 a ext:PostalAddress ;
+    ext:identifierValue "10 Rue du Moulin, 31000 Toulouse"^^xsd:string .
+
+exa:addr_e8ac5d3351 a ext:PostalAddress ;
+    ext:identifierValue "6 Rue de la Gare, 75011 Paris"^^xsd:string .
+
+exa:addr_f222dfb3ea a ext:PostalAddress ;
+    ext:identifierValue "29 Allée des Cèdres, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_f4834401f8 a ext:PostalAddress ;
+    ext:identifierValue "23 Chemin des Vignes, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_f50827bf8d a ext:PostalAddress ;
+    ext:identifierValue "49 Avenue des Tilleuls, 69003 Lyon"^^xsd:string .
+
+exa:addr_f558081af8 a ext:PostalAddress ;
+    ext:identifierValue "7 Chemin des Vignes, 69003 Lyon"^^xsd:string .
+
+exa:addr_fcb2207e7d a ext:PostalAddress ;
+    ext:identifierValue "45 Allée des Cèdres, 59000 Lille"^^xsd:string .
+
+exa:customer_C001 a ext:Customer ;
+    ext:fullName "Alice Martin"^^xsd:string ;
+    ext:hasEmail exa:email_5ad084aa61 ;
+    ext:hasIban exa:iban_XX0000000000000000000001 ;
+    ext:hasPhone exa:phone_33639980001 ;
+    ext:livesAt exa:addr_dfe60e5f80 ;
+    ext:registrationDate "2026-01-19"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-001 .
+
+exa:customer_C002 a ext:Customer,
+        ext:FraudulentCustomer ;
+    ext:fullName "Bruno Leroy"^^xsd:string ;
+    ext:hasEmail exa:email_cc990fded1 ;
+    ext:hasIban exa:iban_XX0000000000000000000002 ;
+    ext:hasPhone exa:phone_33639980002 ;
+    ext:livesAt exa:addr_995609ea03 ;
+    ext:registrationDate "2026-01-08"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-002 .
+
+exa:customer_C003 a ext:Customer ;
+    ext:fullName "Claire Bernard"^^xsd:string ;
+    ext:hasEmail exa:email_65066138cb ;
+    ext:hasIban exa:iban_XX0000000000000000000001 ;
+    ext:hasPhone exa:phone_33639980003 ;
+    ext:livesAt exa:addr_dfe60e5f80 ;
+    ext:registrationDate "2026-02-09"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-003 .
+
+exa:customer_C004 a ext:Customer ;
+    ext:fullName "David Thomas"^^xsd:string ;
+    ext:hasEmail exa:email_b43407d749 ;
+    ext:hasIban exa:iban_XX0000000000000000000004 ;
+    ext:hasPhone exa:phone_33639980004 ;
+    ext:livesAt exa:addr_cfe826b2f5 ;
+    ext:registrationDate "2024-03-12"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-004 .
+
+exa:customer_C005 a ext:Customer ;
+    ext:fullName "Elodie Robert"^^xsd:string ;
+    ext:hasEmail exa:email_beb92ec185 ;
+    ext:hasIban exa:iban_XX0000000000000000000005 ;
+    ext:hasPhone exa:phone_33639980005 ;
+    ext:livesAt exa:addr_47c424e0a9 ;
+    ext:registrationDate "2026-02-02"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-005 .
+
+exa:customer_C006 a ext:Customer ;
+    ext:fullName "Fabrice Petit"^^xsd:string ;
+    ext:hasEmail exa:email_8a1757fc8a ;
+    ext:hasIban exa:iban_XX0000000000000000000006 ;
+    ext:hasPhone exa:phone_33639980006 ;
+    ext:livesAt exa:addr_e8ac5d3351 ;
+    ext:registrationDate "2026-01-22"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-005 .
+
+exa:customer_C010 a ext:Customer ;
+    ext:fullName "Julien Moreau"^^xsd:string ;
+    ext:hasEmail exa:email_95b37508c4 ;
+    ext:hasIban exa:iban_XX0000000000000000000010 ;
+    ext:hasPhone exa:phone_33639980010 ;
+    ext:livesAt exa:addr_e3eb58a9a4 ;
+    ext:registrationDate "2026-02-28"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-010 .
+
+exa:customer_C011 a ext:Customer ;
+    ext:fullName "Karine Simon"^^xsd:string ;
+    ext:hasEmail exa:email_632378a2ee ;
+    ext:hasIban exa:iban_XX0000000000000000000011 ;
+    ext:hasPhone exa:phone_33639980011 ;
+    ext:livesAt exa:addr_4e7075069d ;
+    ext:registrationDate "2026-01-09"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-011 .
+
+exa:customer_C012 a ext:Customer ;
+    ext:fullName "Laurent Michel"^^xsd:string ;
+    ext:hasEmail exa:email_76857ca667 ;
+    ext:hasIban exa:iban_XX0000000000000000000012 ;
+    ext:hasPhone exa:phone_33639980012 ;
+    ext:livesAt exa:addr_91cc251037 ;
+    ext:registrationDate "2026-01-08"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-012 .
+
+exa:customer_C016 a ext:Customer ;
+    ext:fullName "Pascal Dupont"^^xsd:string ;
+    ext:hasEmail exa:email_c7e89eb822 ;
+    ext:hasIban exa:iban_XX0000000000000000000016 ;
+    ext:hasPhone exa:phone_33639980016 ;
+    ext:livesAt exa:addr_da0e98d89b ;
+    ext:registrationDate "2026-03-10"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-016 .
+
+exa:customer_C017 a ext:Customer ;
+    ext:fullName "Quentin Lambert"^^xsd:string ;
+    ext:hasEmail exa:email_368ec403f8 ;
+    ext:hasIban exa:iban_XX0000000000000000000017 ;
+    ext:hasPhone exa:phone_33639980017 ;
+    ext:livesAt exa:addr_a7713d59ec ;
+    ext:registrationDate "2026-01-08"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-017 .
+
+exa:customer_C025 a ext:Customer ;
+    ext:fullName "Yasmine Henry"^^xsd:string ;
+    ext:hasEmail exa:email_22c16944cf ;
+    ext:hasIban exa:iban_XX0000000000000000000025 ;
+    ext:hasPhone exa:phone_33639980025 ;
+    ext:livesAt exa:addr_cf5f610f79 ;
+    ext:registrationDate "2026-01-25"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-025 .
+
+exa:customer_C026 a ext:Customer ;
+    ext:fullName "Zacharie Masson"^^xsd:string ;
+    ext:hasEmail exa:email_ff559205ed ;
+    ext:hasIban exa:iban_XX0000000000000000000016 ;
+    ext:hasPhone exa:phone_33639980026 ;
+    ext:livesAt exa:addr_50fc0371df ;
+    ext:registrationDate "2026-02-28"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-026 .
+
+exa:customer_C027 a ext:Customer ;
+    ext:fullName "Aurore Chevallier"^^xsd:string ;
+    ext:hasEmail exa:email_99fce6c030 ;
+    ext:hasIban exa:iban_XX0000000000000000000027 ;
+    ext:hasPhone exa:phone_33639980027 ;
+    ext:livesAt exa:addr_e16bb2686b ;
+    ext:registrationDate "2026-02-17"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-027 .
+
+exa:customer_C036 a ext:Customer,
+        ext:FraudulentCustomer ;
+    ext:fullName "Jérôme Lehmann"^^xsd:string ;
+    ext:hasEmail exa:email_65555125b0 ;
+    ext:hasIban exa:iban_XX0000000000000000000036 ;
+    ext:hasPhone exa:phone_33639980036 ;
+    ext:livesAt exa:addr_c948c28980 ;
+    ext:registrationDate "2026-02-10"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-RING-01 .
+
+exa:customer_C037 a ext:Customer ;
+    ext:fullName "Laure Weber"^^xsd:string ;
+    ext:hasEmail exa:email_c13f3f901c ;
+    ext:hasIban exa:iban_XX0000000000000000000037 ;
+    ext:hasPhone exa:phone_33639980036 ;
+    ext:livesAt exa:addr_200fed16a1 ;
+    ext:registrationDate "2026-02-11"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-RING-01 .
+
+exa:customer_C038 a ext:Customer ;
+    ext:fullName "Marc Hoffmann"^^xsd:string ;
+    ext:hasEmail exa:email_61dbaa3ad4 ;
+    ext:hasIban exa:iban_XX0000000000000000000038 ;
+    ext:hasPhone exa:phone_33639980038 ;
+    ext:livesAt exa:addr_2543d0281b ;
+    ext:registrationDate "2026-02-12"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-RING-01 .
+
+exa:customer_C039 a ext:Customer ;
+    ext:fullName "Nathalie Klein"^^xsd:string ;
+    ext:hasEmail exa:email_074e67cd3d ;
+    ext:hasIban exa:iban_XX0000000000000000000038 ;
+    ext:hasPhone exa:phone_33639980039 ;
+    ext:livesAt exa:addr_12bcc66f7c ;
+    ext:registrationDate "2026-02-10"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-RING-01 .
+
+exa:customer_C040 a ext:Customer,
+        ext:FraudulentCustomer ;
+    ext:fullName "Olivier Schwartz"^^xsd:string ;
+    ext:hasEmail exa:email_024875d9ae ;
+    ext:hasIban exa:iban_XX0000000000000000000040 ;
+    ext:hasPhone exa:phone_33639980040 ;
+    ext:livesAt exa:addr_98f09fe918 ;
+    ext:registrationDate "2026-02-20"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-040 .
+
+exa:customer_C041 a ext:Customer ;
+    ext:fullName "Pauline Wagner"^^xsd:string ;
+    ext:hasEmail exa:email_e498d6dba3 ;
+    ext:hasIban exa:iban_XX0000000000000000000041 ;
+    ext:hasPhone exa:phone_33639980040 ;
+    ext:livesAt exa:addr_3c02e7553a ;
+    ext:registrationDate "2026-02-21"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-CHAIN-01 .
+
+exa:customer_C042 a ext:Customer ;
+    ext:fullName "Romain Wolf"^^xsd:string ;
+    ext:hasEmail exa:email_65e5f5040b ;
+    ext:hasIban exa:iban_XX0000000000000000000042 ;
+    ext:hasPhone exa:phone_33639980042 ;
+    ext:livesAt exa:addr_e05967d678 ;
+    ext:registrationDate "2026-02-22"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-CHAIN-01 .
+
+exa:customer_C043 a ext:Customer ;
+    ext:fullName "Sophie Bauer"^^xsd:string ;
+    ext:hasEmail exa:email_9508425469 ;
+    ext:hasIban exa:iban_XX0000000000000000000042 ;
+    ext:hasPhone exa:phone_33639980043 ;
+    ext:livesAt exa:addr_f55e705134 ;
+    ext:registrationDate "2026-02-20"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-043 .
+
+exa:customer_C044 a ext:Customer ;
+    ext:fullName "Thierry Koch"^^xsd:string ;
+    ext:hasEmail exa:email_ed5dfb7a62 ;
+    ext:hasIban exa:iban_XX0000000000000000000044 ;
+    ext:hasPhone exa:phone_33639980044 ;
+    ext:livesAt exa:addr_f55e705134 ;
+    ext:registrationDate "2026-02-21"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-044 .
+
+exa:customer_C045 a ext:Customer ;
+    ext:fullName "Véronique Zimmermann"^^xsd:string ;
+    ext:hasEmail exa:email_d888464d14 ;
+    ext:hasIban exa:iban_XX0000000000000000000045 ;
+    ext:hasPhone exa:phone_33639980046 ;
+    ext:livesAt exa:addr_fcb2207e7d ;
+    ext:registrationDate "2026-02-11"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-045 .
+
+exa:customer_C046 a ext:Customer,
+        ext:FraudulentCustomer ;
+    ext:fullName "Yannick Meyer"^^xsd:string ;
+    ext:hasEmail exa:email_2b27a83a21 ;
+    ext:hasIban exa:iban_XX0000000000000000000046 ;
+    ext:hasPhone exa:phone_33639980046 ;
+    ext:livesAt exa:addr_9476aa4efd ;
+    ext:registrationDate "2026-02-20"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-046 .
+
+exa:customer_C047 a ext:Customer ;
+    ext:fullName "Zoé Decker"^^xsd:string ;
+    ext:hasEmail exa:email_1ffa4fbb4b ;
+    ext:hasIban exa:iban_XX0000000000000000000047 ;
+    ext:hasPhone exa:phone_33639980047 ;
+    ext:livesAt exa:addr_eb596c4ae6 ;
+    ext:registrationDate "2026-01-29"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-047 .
+
+exa:customer_C048 a ext:Customer ;
+    ext:fullName "Alain Berger"^^xsd:string ;
+    ext:hasEmail exa:email_76d77486e1 ;
+    ext:hasIban exa:iban_XX0000000000000000000048 ;
+    ext:hasPhone exa:phone_33639980047 ;
+    ext:livesAt exa:addr_eb596c4ae6 ;
+    ext:registrationDate "2026-01-13"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-048 .
+
+exa:device_DEV-001 a ext:Device ;
+    ext:identifierValue "DEV-001"^^xsd:string .
+
+exa:device_DEV-002 a ext:Device ;
+    ext:identifierValue "DEV-002"^^xsd:string .
+
+exa:device_DEV-003 a ext:Device ;
+    ext:identifierValue "DEV-003"^^xsd:string .
+
+exa:device_DEV-004 a ext:Device ;
+    ext:identifierValue "DEV-004"^^xsd:string .
+
+exa:device_DEV-007 a ext:Device ;
+    ext:identifierValue "DEV-007"^^xsd:string .
+
+exa:device_DEV-008 a ext:Device ;
+    ext:identifierValue "DEV-008"^^xsd:string .
+
+exa:device_DEV-009 a ext:Device ;
+    ext:identifierValue "DEV-009"^^xsd:string .
+
+exa:device_DEV-010 a ext:Device ;
+    ext:identifierValue "DEV-010"^^xsd:string .
+
+exa:device_DEV-011 a ext:Device ;
+    ext:identifierValue "DEV-011"^^xsd:string .
+
+exa:device_DEV-012 a ext:Device ;
+    ext:identifierValue "DEV-012"^^xsd:string .
+
+exa:device_DEV-013 a ext:Device ;
+    ext:identifierValue "DEV-013"^^xsd:string .
+
+exa:device_DEV-014 a ext:Device ;
+    ext:identifierValue "DEV-014"^^xsd:string .
+
+exa:device_DEV-015 a ext:Device ;
+    ext:identifierValue "DEV-015"^^xsd:string .
+
+exa:device_DEV-016 a ext:Device ;
+    ext:identifierValue "DEV-016"^^xsd:string .
+
+exa:device_DEV-017 a ext:Device ;
+    ext:identifierValue "DEV-017"^^xsd:string .
+
+exa:device_DEV-018 a ext:Device ;
+    ext:identifierValue "DEV-018"^^xsd:string .
+
+exa:device_DEV-019 a ext:Device ;
+    ext:identifierValue "DEV-019"^^xsd:string .
+
+exa:device_DEV-020 a ext:Device ;
+    ext:identifierValue "DEV-020"^^xsd:string .
+
+exa:device_DEV-021 a ext:Device ;
+    ext:identifierValue "DEV-021"^^xsd:string .
+
+exa:device_DEV-022 a ext:Device ;
+    ext:identifierValue "DEV-022"^^xsd:string .
+
+exa:device_DEV-023 a ext:Device ;
+    ext:identifierValue "DEV-023"^^xsd:string .
+
+exa:device_DEV-024 a ext:Device ;
+    ext:identifierValue "DEV-024"^^xsd:string .
+
+exa:device_DEV-025 a ext:Device ;
+    ext:identifierValue "DEV-025"^^xsd:string .
+
+exa:device_DEV-026 a ext:Device ;
+    ext:identifierValue "DEV-026"^^xsd:string .
+
+exa:device_DEV-027 a ext:Device ;
+    ext:identifierValue "DEV-027"^^xsd:string .
+
+exa:device_DEV-028 a ext:Device ;
+    ext:identifierValue "DEV-028"^^xsd:string .
+
+exa:device_DEV-029 a ext:Device ;
+    ext:identifierValue "DEV-029"^^xsd:string .
+
+exa:device_DEV-030 a ext:Device ;
+    ext:identifierValue "DEV-030"^^xsd:string .
+
+exa:device_DEV-031 a ext:Device ;
+    ext:identifierValue "DEV-031"^^xsd:string .
+
+exa:device_DEV-032 a ext:Device ;
+    ext:identifierValue "DEV-032"^^xsd:string .
+
+exa:device_DEV-033 a ext:Device ;
+    ext:identifierValue "DEV-033"^^xsd:string .
+
+exa:device_DEV-034 a ext:Device ;
+    ext:identifierValue "DEV-034"^^xsd:string .
+
+exa:device_DEV-035 a ext:Device ;
+    ext:identifierValue "DEV-035"^^xsd:string .
+
+exa:device_DEV-040 a ext:Device ;
+    ext:identifierValue "DEV-040"^^xsd:string .
+
+exa:device_DEV-043 a ext:Device ;
+    ext:identifierValue "DEV-043"^^xsd:string .
+
+exa:device_DEV-044 a ext:Device ;
+    ext:identifierValue "DEV-044"^^xsd:string .
+
+exa:device_DEV-045 a ext:Device ;
+    ext:identifierValue "DEV-045"^^xsd:string .
+
+exa:device_DEV-046 a ext:Device ;
+    ext:identifierValue "DEV-046"^^xsd:string .
+
+exa:device_DEV-047 a ext:Device ;
+    ext:identifierValue "DEV-047"^^xsd:string .
+
+exa:device_DEV-048 a ext:Device ;
+    ext:identifierValue "DEV-048"^^xsd:string .
+
+exa:device_DEV-049 a ext:Device ;
+    ext:identifierValue "DEV-049"^^xsd:string .
+
+exa:device_DEV-050 a ext:Device ;
+    ext:identifierValue "DEV-050"^^xsd:string .
+
+exa:email_01102a11e6 a ext:EmailAddress ;
+    ext:identifierValue "francois.marchand@example.com"^^xsd:string .
+
+exa:email_024875d9ae a ext:EmailAddress ;
+    ext:identifierValue "olivier.schwartz@example.com"^^xsd:string .
+
+exa:email_066500deef a ext:EmailAddress ;
+    ext:identifierValue "damien.rey@example.com"^^xsd:string .
+
+exa:email_074e67cd3d a ext:EmailAddress ;
+    ext:identifierValue "nathalie.klein@example.com"^^xsd:string .
+
+exa:email_081e1cbb97 a ext:EmailAddress ;
+    ext:identifierValue "gabrielle.picard@example.com"^^xsd:string .
+
+exa:email_1ffa4fbb4b a ext:EmailAddress ;
+    ext:identifierValue "zoe.decker@example.com"^^xsd:string .
+
+exa:email_22c16944cf a ext:EmailAddress ;
+    ext:identifierValue "yasmine.henry@example.com"^^xsd:string .
+
+exa:email_27089da3ec a ext:EmailAddress ;
+    ext:identifierValue "beatrice.lang@example.com"^^xsd:string .
+
+exa:email_2a68b00693 a ext:EmailAddress ;
+    ext:identifierValue "stephane.gautier@example.com"^^xsd:string .
+
+exa:email_2b27a83a21 a ext:EmailAddress ;
+    ext:identifierValue "yannick.meyer@example.com"^^xsd:string .
+
+exa:email_368ec403f8 a ext:EmailAddress ;
+    ext:identifierValue "quentin.lambert@example.com"^^xsd:string .
+
+exa:email_5ad084aa61 a ext:EmailAddress ;
+    ext:identifierValue "alice.martin@example.com"^^xsd:string .
+
+exa:email_5ff64f5d00 a ext:EmailAddress ;
+    ext:identifierValue "william.blanc@example.com"^^xsd:string .
+
+exa:email_603c8371b8 a ext:EmailAddress ;
+    ext:identifierValue "ulysse.roussel@example.com"^^xsd:string .
+
+exa:email_61dbaa3ad4 a ext:EmailAddress ;
+    ext:identifierValue "marc.hoffmann@example.com"^^xsd:string .
+
+exa:email_632378a2ee a ext:EmailAddress ;
+    ext:identifierValue "karine.simon@example.com"^^xsd:string .
+
+exa:email_65066138cb a ext:EmailAddress ;
+    ext:identifierValue "claire.bernard@example.com"^^xsd:string .
+
+exa:email_65555125b0 a ext:EmailAddress ;
+    ext:identifierValue "jerome.lehmann@example.com"^^xsd:string .
+
+exa:email_65e5f5040b a ext:EmailAddress ;
+    ext:identifierValue "romain.wolf@example.com"^^xsd:string .
+
+exa:email_6640ea557a a ext:EmailAddress ;
+    ext:identifierValue "rachel.martinez@example.com"^^xsd:string .
+
+exa:email_76857ca667 a ext:EmailAddress ;
+    ext:identifierValue "laurent.michel@example.com"^^xsd:string .
+
+exa:email_76d77486e1 a ext:EmailAddress ;
+    ext:identifierValue "alain.berger@example.com"^^xsd:string .
+
+exa:email_785de28565 a ext:EmailAddress ;
+    ext:identifierValue "odile.bonnet@example.com"^^xsd:string .
+
+exa:email_86b474a3ae a ext:EmailAddress ;
+    ext:identifierValue "benoit.collet@example.com"^^xsd:string .
+
+exa:email_8a1757fc8a a ext:EmailAddress ;
+    ext:identifierValue "fabrice.petit@example.com"^^xsd:string .
+
+exa:email_919a720826 a ext:EmailAddress ;
+    ext:identifierValue "nicolas.leroy@example.com"^^xsd:string .
+
+exa:email_9508425469 a ext:EmailAddress ;
+    ext:identifierValue "sophie.bauer@example.com"^^xsd:string .
+
+exa:email_95b37508c4 a ext:EmailAddress ;
+    ext:identifierValue "julien.moreau@example.com"^^xsd:string .
+
+exa:email_95b709e592 a ext:EmailAddress ;
+    ext:identifierValue "herve.richard@example.com"^^xsd:string .
+
+exa:email_99fce6c030 a ext:EmailAddress ;
+    ext:identifierValue "aurore.chevallier@example.com"^^xsd:string .
+
+exa:email_9b2a9a0642 a ext:EmailAddress ;
+    ext:identifierValue "henri.meyer@example.com"^^xsd:string .
+
+exa:email_a07568fb20 a ext:EmailAddress ;
+    ext:identifierValue "tatiana.faure@example.com"^^xsd:string .
+
+exa:email_b43407d749 a ext:EmailAddress ;
+    ext:identifierValue "david.thomas@example.com"^^xsd:string .
+
+exa:email_beb92ec185 a ext:EmailAddress ;
+    ext:identifierValue "elodie.robert@example.com"^^xsd:string .
+
+exa:email_c13f3f901c a ext:EmailAddress ;
+    ext:identifierValue "laure.weber@example.com"^^xsd:string .
+
+exa:email_c4d969c927 a ext:EmailAddress ;
+    ext:identifierValue "monique.lefebvre@example.com"^^xsd:string .
+
+exa:email_c51b3c5665 a ext:EmailAddress ;
+    ext:identifierValue "geraldine.roux@example.com"^^xsd:string .
+
+exa:email_c5af6a34b7 a ext:EmailAddress ;
+    ext:identifierValue "isabelle.durand@example.com"^^xsd:string .
+
+exa:email_c7e89eb822 a ext:EmailAddress ;
+    ext:identifierValue "pascal.dupont@example.com"^^xsd:string .
+
+exa:email_cc990fded1 a ext:EmailAddress ;
+    ext:identifierValue "bruno.leroy@example.com"^^xsd:string .
+
+exa:email_d4953c54e8 a ext:EmailAddress ;
+    ext:identifierValue "christian.fuchs@example.com"^^xsd:string .
+
+exa:email_d6293d705b a ext:EmailAddress ;
+    ext:identifierValue "ines.muller@example.com"^^xsd:string .
+
+exa:email_d888464d14 a ext:EmailAddress ;
+    ext:identifierValue "veronique.zimmermann@example.com"^^xsd:string .
+
+exa:email_df527c2ffd a ext:EmailAddress ;
+    ext:identifierValue "valerie.mercier@example.com"^^xsd:string .
+
+exa:email_e498d6dba3 a ext:EmailAddress ;
+    ext:identifierValue "pauline.wagner@example.com"^^xsd:string .
+
+exa:email_e864ccf7a2 a ext:EmailAddress ;
+    ext:identifierValue "chantal.vidal@example.com"^^xsd:string .
+
+exa:email_ed5dfb7a62 a ext:EmailAddress ;
+    ext:identifierValue "thierry.koch@example.com"^^xsd:string .
+
+exa:email_f46a4a2904 a ext:EmailAddress ;
+    ext:identifierValue "xavier.guerin@example.com"^^xsd:string .
+
+exa:email_f6592fe715 a ext:EmailAddress ;
+    ext:identifierValue "emilie.chevalier@example.com"^^xsd:string .
+
+exa:email_ff559205ed a ext:EmailAddress ;
+    ext:identifierValue "zacharie.masson@example.com"^^xsd:string .
+
+exa:iban_XX0000000000000000000002 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000002"^^xsd:string .
+
+exa:iban_XX0000000000000000000004 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000004"^^xsd:string .
+
+exa:iban_XX0000000000000000000005 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000005"^^xsd:string .
+
+exa:iban_XX0000000000000000000006 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000006"^^xsd:string .
+
+exa:iban_XX0000000000000000000007 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000007"^^xsd:string .
+
+exa:iban_XX0000000000000000000008 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000008"^^xsd:string .
+
+exa:iban_XX0000000000000000000009 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000009"^^xsd:string .
+
+exa:iban_XX0000000000000000000010 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000010"^^xsd:string .
+
+exa:iban_XX0000000000000000000011 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000011"^^xsd:string .
+
+exa:iban_XX0000000000000000000012 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000012"^^xsd:string .
+
+exa:iban_XX0000000000000000000013 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000013"^^xsd:string .
+
+exa:iban_XX0000000000000000000014 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000014"^^xsd:string .
+
+exa:iban_XX0000000000000000000015 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000015"^^xsd:string .
+
+exa:iban_XX0000000000000000000017 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000017"^^xsd:string .
+
+exa:iban_XX0000000000000000000018 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000018"^^xsd:string .
+
+exa:iban_XX0000000000000000000019 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000019"^^xsd:string .
+
+exa:iban_XX0000000000000000000020 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000020"^^xsd:string .
+
+exa:iban_XX0000000000000000000021 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000021"^^xsd:string .
+
+exa:iban_XX0000000000000000000022 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000022"^^xsd:string .
+
+exa:iban_XX0000000000000000000023 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000023"^^xsd:string .
+
+exa:iban_XX0000000000000000000024 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000024"^^xsd:string .
+
+exa:iban_XX0000000000000000000025 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000025"^^xsd:string .
+
+exa:iban_XX0000000000000000000027 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000027"^^xsd:string .
+
+exa:iban_XX0000000000000000000028 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000028"^^xsd:string .
+
+exa:iban_XX0000000000000000000029 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000029"^^xsd:string .
+
+exa:iban_XX0000000000000000000030 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000030"^^xsd:string .
+
+exa:iban_XX0000000000000000000031 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000031"^^xsd:string .
+
+exa:iban_XX0000000000000000000032 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000032"^^xsd:string .
+
+exa:iban_XX0000000000000000000033 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000033"^^xsd:string .
+
+exa:iban_XX0000000000000000000034 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000034"^^xsd:string .
+
+exa:iban_XX0000000000000000000035 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000035"^^xsd:string .
+
+exa:iban_XX0000000000000000000036 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000036"^^xsd:string .
+
+exa:iban_XX0000000000000000000037 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000037"^^xsd:string .
+
+exa:iban_XX0000000000000000000040 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000040"^^xsd:string .
+
+exa:iban_XX0000000000000000000041 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000041"^^xsd:string .
+
+exa:iban_XX0000000000000000000044 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000044"^^xsd:string .
+
+exa:iban_XX0000000000000000000045 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000045"^^xsd:string .
+
+exa:iban_XX0000000000000000000046 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000046"^^xsd:string .
+
+exa:iban_XX0000000000000000000047 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000047"^^xsd:string .
+
+exa:iban_XX0000000000000000000048 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000048"^^xsd:string .
+
+exa:iban_XX0000000000000000000049 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000049"^^xsd:string .
+
+exa:iban_XX0000000000000000000050 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000050"^^xsd:string .
+
+exa:order_O001 a ext:Order ;
+    ext:amount 2400.0 ;
+    ext:orderDate "2026-05-14"^^xsd:date ;
+    ext:placedBy exa:customer_C036 .
+
+exa:order_O002 a ext:Order ;
+    ext:amount 1850.0 ;
+    ext:orderDate "2026-03-21"^^xsd:date ;
+    ext:placedBy exa:customer_C037 .
+
+exa:order_O003 a ext:Order ;
+    ext:amount 2100.0 ;
+    ext:orderDate "2026-04-29"^^xsd:date ;
+    ext:placedBy exa:customer_C038 .
+
+exa:order_O004 a ext:Order ;
+    ext:amount 1950.0 ;
+    ext:orderDate "2026-10-08"^^xsd:date ;
+    ext:placedBy exa:customer_C039 .
+
+exa:order_O005 a ext:Order ;
+    ext:amount 1700.0 ;
+    ext:orderDate "2026-03-26"^^xsd:date ;
+    ext:placedBy exa:customer_C040 .
+
+exa:order_O006 a ext:Order ;
+    ext:amount 980.0 ;
+    ext:orderDate "2026-06-06"^^xsd:date ;
+    ext:placedBy exa:customer_C041 .
+
+exa:order_O007 a ext:Order ;
+    ext:amount 1200.0 ;
+    ext:orderDate "2026-09-29"^^xsd:date ;
+    ext:placedBy exa:customer_C042 .
+
+exa:order_O008 a ext:Order ;
+    ext:amount 150.0 ;
+    ext:orderDate "2026-06-25"^^xsd:date ;
+    ext:placedBy exa:customer_C043 .
+
+exa:order_O009 a ext:Order ;
+    ext:amount 89.9 ;
+    ext:orderDate "2026-06-02"^^xsd:date ;
+    ext:placedBy exa:customer_C044 .
+
+exa:order_O010 a ext:Order ;
+    ext:amount 120.0 ;
+    ext:orderDate "2026-04-11"^^xsd:date ;
+    ext:placedBy exa:customer_C045 .
+
+exa:order_O011 a ext:Order ;
+    ext:amount 1600.0 ;
+    ext:orderDate "2026-06-03"^^xsd:date ;
+    ext:placedBy exa:customer_C046 .
+
+exa:order_O012 a ext:Order ;
+    ext:amount 1200.5 ;
+    ext:orderDate "2026-05-30"^^xsd:date ;
+    ext:placedBy exa:customer_C002 .
+
+exa:order_O013 a ext:Order ;
+    ext:amount 450.0 ;
+    ext:orderDate "2026-04-23"^^xsd:date ;
+    ext:placedBy exa:customer_C001 .
+
+exa:order_O014 a ext:Order ;
+    ext:amount 150.0 ;
+    ext:orderDate "2026-05-08"^^xsd:date ;
+    ext:placedBy exa:customer_C003 .
+
+exa:order_O015 a ext:Order ;
+    ext:amount 890.0 ;
+    ext:orderDate "2026-10-06"^^xsd:date ;
+    ext:placedBy exa:customer_C005 .
+
+exa:order_O016 a ext:Order ;
+    ext:amount 210.0 ;
+    ext:orderDate "2026-03-19"^^xsd:date ;
+    ext:placedBy exa:customer_C006 .
+
+exa:order_O017 a ext:Order ;
+    ext:amount 340.0 ;
+    ext:orderDate "2026-04-13"^^xsd:date ;
+    ext:placedBy exa:customer_C016 .
+
+exa:order_O018 a ext:Order ;
+    ext:amount 75.0 ;
+    ext:orderDate "2026-07-15"^^xsd:date ;
+    ext:placedBy exa:customer_C026 .
+
+exa:order_O019 a ext:Order ;
+    ext:amount 60.0 ;
+    ext:orderDate "2026-05-02"^^xsd:date ;
+    ext:placedBy exa:customer_C047 .
+
+exa:order_O020 a ext:Order ;
+    ext:amount 95.0 ;
+    ext:orderDate "2026-04-11"^^xsd:date ;
+    ext:placedBy exa:customer_C048 .
+
+exa:order_O021 a ext:Order ;
+    ext:amount 4200.0 ;
+    ext:orderDate "2026-10-02"^^xsd:date ;
+    ext:placedBy exa:customer_C004 .
+
+exa:order_O022 a ext:Order ;
+    ext:amount 155.18 ;
+    ext:orderDate "2026-05-23"^^xsd:date ;
+    ext:placedBy exa:customer_C007 .
+
+exa:order_O023 a ext:Order ;
+    ext:amount 472.32 ;
+    ext:orderDate "2026-09-28"^^xsd:date ;
+    ext:placedBy exa:customer_C007 .
+
+exa:order_O024 a ext:Order ;
+    ext:amount 567.46 ;
+    ext:orderDate "2026-05-20"^^xsd:date ;
+    ext:placedBy exa:customer_C010 .
+
+exa:order_O025 a ext:Order ;
+    ext:amount 551.29 ;
+    ext:orderDate "2026-06-26"^^xsd:date ;
+    ext:placedBy exa:customer_C011 .
+
+exa:order_O026 a ext:Order ;
+    ext:amount 349.98 ;
+    ext:orderDate "2026-05-07"^^xsd:date ;
+    ext:placedBy exa:customer_C012 .
+
+exa:order_O027 a ext:Order ;
+    ext:amount 155.01 ;
+    ext:orderDate "2026-04-05"^^xsd:date ;
+    ext:placedBy exa:customer_C014 .
+
+exa:order_O028 a ext:Order ;
+    ext:amount 81.82 ;
+    ext:orderDate "2026-03-13"^^xsd:date ;
+    ext:placedBy exa:customer_C014 .
+
+exa:order_O029 a ext:Order ;
+    ext:amount 270.63 ;
+    ext:orderDate "2026-03-17"^^xsd:date ;
+    ext:placedBy exa:customer_C017 .
+
+exa:order_O030 a ext:Order ;
+    ext:amount 331.6 ;
+    ext:orderDate "2026-07-20"^^xsd:date ;
+    ext:placedBy exa:customer_C018 .
+
+exa:order_O031 a ext:Order ;
+    ext:amount 36.54 ;
+    ext:orderDate "2026-10-06"^^xsd:date ;
+    ext:placedBy exa:customer_C018 .
+
+exa:order_O032 a ext:Order ;
+    ext:amount 468.1 ;
+    ext:orderDate "2026-05-27"^^xsd:date ;
+    ext:placedBy exa:customer_C019 .
+
+exa:order_O033 a ext:Order ;
+    ext:amount 277.82 ;
+    ext:orderDate "2026-06-25"^^xsd:date ;
+    ext:placedBy exa:customer_C019 .
+
+exa:order_O034 a ext:Order ;
+    ext:amount 180.13 ;
+    ext:orderDate "2026-10-03"^^xsd:date ;
+    ext:placedBy exa:customer_C020 .
+
+exa:order_O035 a ext:Order ;
+    ext:amount 319.38 ;
+    ext:orderDate "2026-03-28"^^xsd:date ;
+    ext:placedBy exa:customer_C020 .
+
+exa:order_O036 a ext:Order ;
+    ext:amount 143.38 ;
+    ext:orderDate "2026-06-04"^^xsd:date ;
+    ext:placedBy exa:customer_C022 .
+
+exa:order_O037 a ext:Order ;
+    ext:amount 337.45 ;
+    ext:orderDate "2026-07-14"^^xsd:date ;
+    ext:placedBy exa:customer_C022 .
+
+exa:order_O038 a ext:Order ;
+    ext:amount 530.87 ;
+    ext:orderDate "2026-05-18"^^xsd:date ;
+    ext:placedBy exa:customer_C025 .
+
+exa:order_O039 a ext:Order ;
+    ext:amount 569.76 ;
+    ext:orderDate "2026-09-26"^^xsd:date ;
+    ext:placedBy exa:customer_C027 .
+
+exa:order_O040 a ext:Order ;
+    ext:amount 343.39 ;
+    ext:orderDate "2026-05-07"^^xsd:date ;
+    ext:placedBy exa:customer_C032 .
+
+exa:order_O041 a ext:Order ;
+    ext:amount 375.76 ;
+    ext:orderDate "2026-04-24"^^xsd:date ;
+    ext:placedBy exa:customer_C032 .
+
+exa:order_O042 a ext:Order ;
+    ext:amount 279.72 ;
+    ext:orderDate "2026-07-11"^^xsd:date ;
+    ext:placedBy exa:customer_C050 .
+
+exa:order_O043 a ext:Order ;
+    ext:amount 171.31 ;
+    ext:orderDate "2026-03-17"^^xsd:date ;
+    ext:placedBy exa:customer_C050 .
+
+exa:phone_33639980001 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980001"^^xsd:string .
+
+exa:phone_33639980002 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980002"^^xsd:string .
+
+exa:phone_33639980003 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980003"^^xsd:string .
+
+exa:phone_33639980004 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980004"^^xsd:string .
+
+exa:phone_33639980005 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980005"^^xsd:string .
+
+exa:phone_33639980006 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980006"^^xsd:string .
+
+exa:phone_33639980007 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980007"^^xsd:string .
+
+exa:phone_33639980008 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980008"^^xsd:string .
+
+exa:phone_33639980009 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980009"^^xsd:string .
+
+exa:phone_33639980010 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980010"^^xsd:string .
+
+exa:phone_33639980011 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980011"^^xsd:string .
+
+exa:phone_33639980012 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980012"^^xsd:string .
+
+exa:phone_33639980013 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980013"^^xsd:string .
+
+exa:phone_33639980014 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980014"^^xsd:string .
+
+exa:phone_33639980015 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980015"^^xsd:string .
+
+exa:phone_33639980016 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980016"^^xsd:string .
+
+exa:phone_33639980017 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980017"^^xsd:string .
+
+exa:phone_33639980018 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980018"^^xsd:string .
+
+exa:phone_33639980019 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980019"^^xsd:string .
+
+exa:phone_33639980020 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980020"^^xsd:string .
+
+exa:phone_33639980021 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980021"^^xsd:string .
+
+exa:phone_33639980022 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980022"^^xsd:string .
+
+exa:phone_33639980023 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980023"^^xsd:string .
+
+exa:phone_33639980024 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980024"^^xsd:string .
+
+exa:phone_33639980025 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980025"^^xsd:string .
+
+exa:phone_33639980026 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980026"^^xsd:string .
+
+exa:phone_33639980027 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980027"^^xsd:string .
+
+exa:phone_33639980028 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980028"^^xsd:string .
+
+exa:phone_33639980029 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980029"^^xsd:string .
+
+exa:phone_33639980030 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980030"^^xsd:string .
+
+exa:phone_33639980031 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980031"^^xsd:string .
+
+exa:phone_33639980032 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980032"^^xsd:string .
+
+exa:phone_33639980033 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980033"^^xsd:string .
+
+exa:phone_33639980034 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980034"^^xsd:string .
+
+exa:phone_33639980035 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980035"^^xsd:string .
+
+exa:phone_33639980038 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980038"^^xsd:string .
+
+exa:phone_33639980039 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980039"^^xsd:string .
+
+exa:phone_33639980042 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980042"^^xsd:string .
+
+exa:phone_33639980043 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980043"^^xsd:string .
+
+exa:phone_33639980044 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980044"^^xsd:string .
+
+exa:phone_33639980049 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980049"^^xsd:string .
+
+exa:phone_33639980050 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980050"^^xsd:string .
+
+exa:addr_dfe60e5f80 a ext:PostalAddress ;
+    ext:identifierValue "1 Avenue des Tilleuls, 69003 Lyon"^^xsd:string .
+
+exa:addr_eb596c4ae6 a ext:PostalAddress ;
+    ext:identifierValue "47 Chemin des Vignes, 33000 Bordeaux"^^xsd:string .
+
+exa:addr_f55e705134 a ext:PostalAddress ;
+    ext:identifierValue "43 Boulevard des Acacias, 69003 Lyon"^^xsd:string .
+
+exa:customer_C007 a ext:Customer ;
+    ext:fullName "Géraldine Roux"^^xsd:string ;
+    ext:hasEmail exa:email_c51b3c5665 ;
+    ext:hasIban exa:iban_XX0000000000000000000007 ;
+    ext:hasPhone exa:phone_33639980007 ;
+    ext:livesAt exa:addr_f558081af8 ;
+    ext:registrationDate "2026-01-18"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-007 .
+
+exa:customer_C014 a ext:Customer ;
+    ext:fullName "Nicolas Leroy"^^xsd:string ;
+    ext:hasEmail exa:email_919a720826 ;
+    ext:hasIban exa:iban_XX0000000000000000000014 ;
+    ext:hasPhone exa:phone_33639980014 ;
+    ext:livesAt exa:addr_2594073302 ;
+    ext:registrationDate "2026-02-01"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-014 .
+
+exa:customer_C018 a ext:Customer ;
+    ext:fullName "Rachel Martinez"^^xsd:string ;
+    ext:hasEmail exa:email_6640ea557a ;
+    ext:hasIban exa:iban_XX0000000000000000000018 ;
+    ext:hasPhone exa:phone_33639980018 ;
+    ext:livesAt exa:addr_777a3aabe4 ;
+    ext:registrationDate "2026-01-30"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-018 .
+
+exa:customer_C019 a ext:Customer ;
+    ext:fullName "Stéphane Gautier"^^xsd:string ;
+    ext:hasEmail exa:email_2a68b00693 ;
+    ext:hasIban exa:iban_XX0000000000000000000019 ;
+    ext:hasPhone exa:phone_33639980019 ;
+    ext:livesAt exa:addr_18286a2a2f ;
+    ext:registrationDate "2026-03-15"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-019 .
+
+exa:customer_C020 a ext:Customer ;
+    ext:fullName "Tatiana Faure"^^xsd:string ;
+    ext:hasEmail exa:email_a07568fb20 ;
+    ext:hasIban exa:iban_XX0000000000000000000020 ;
+    ext:hasPhone exa:phone_33639980020 ;
+    ext:livesAt exa:addr_937d101f46 ;
+    ext:registrationDate "2026-02-27"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-020 .
+
+exa:customer_C022 a ext:Customer ;
+    ext:fullName "Valérie Mercier"^^xsd:string ;
+    ext:hasEmail exa:email_df527c2ffd ;
+    ext:hasIban exa:iban_XX0000000000000000000022 ;
+    ext:hasPhone exa:phone_33639980022 ;
+    ext:livesAt exa:addr_94b8446ee0 ;
+    ext:registrationDate "2026-03-03"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-022 .
+
+exa:customer_C032 a ext:Customer ;
+    ext:fullName "François Marchand"^^xsd:string ;
+    ext:hasEmail exa:email_01102a11e6 ;
+    ext:hasIban exa:iban_XX0000000000000000000032 ;
+    ext:hasPhone exa:phone_33639980032 ;
+    ext:livesAt exa:addr_b6b3be7fd4 ;
+    ext:registrationDate "2026-01-18"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-032 .
+
+exa:customer_C050 a ext:Customer ;
+    ext:fullName "Christian Fuchs"^^xsd:string ;
+    ext:hasEmail exa:email_d4953c54e8 ;
+    ext:hasIban exa:iban_XX0000000000000000000050 ;
+    ext:hasPhone exa:phone_33639980050 ;
+    ext:livesAt exa:addr_547ac40aa5 ;
+    ext:registrationDate "2026-02-03"^^xsd:date ;
+    ext:usesDevice exa:device_DEV-050 .
+
+exa:device_DEV-005 a ext:Device ;
+    ext:identifierValue "DEV-005"^^xsd:string .
+
+exa:device_DEV-CHAIN-01 a ext:Device ;
+    ext:identifierValue "DEV-CHAIN-01"^^xsd:string .
+
+exa:iban_XX0000000000000000000001 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000001"^^xsd:string .
+
+exa:iban_XX0000000000000000000016 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000016"^^xsd:string .
+
+exa:iban_XX0000000000000000000038 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000038"^^xsd:string .
+
+exa:iban_XX0000000000000000000042 a ext:Iban ;
+    ext:identifierValue "XX0000000000000000000042"^^xsd:string .
+
+exa:phone_33639980036 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980036"^^xsd:string .
+
+exa:phone_33639980040 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980040"^^xsd:string .
+
+exa:phone_33639980046 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980046"^^xsd:string .
+
+exa:phone_33639980047 a ext:PhoneNumber ;
+    ext:identifierValue "+33639980047"^^xsd:string .
+
+exa:device_DEV-RING-01 a ext:Device ;
+    ext:identifierValue "DEV-RING-01"^^xsd:string .
+

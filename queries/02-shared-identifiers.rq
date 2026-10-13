@@ -1,0 +1,14 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ext:  <http://example.org/fraud/tbox#>
+
+SELECT ?identifier ?type (COUNT(DISTINCT ?customer) AS ?customerCount)
+WHERE {
+    ?customer ext:hasIdentifier ?identifier .
+    ?identifier rdf:type ?type .
+    ?type rdfs:subClassOf ext:Identifier .
+    FILTER(?type != ext:Identifier)
+}
+GROUP BY ?identifier ?type
+HAVING (COUNT(DISTINCT ?customer) > 1)
+ORDER BY DESC(?customerCount) ?type

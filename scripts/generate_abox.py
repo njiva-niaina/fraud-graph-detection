@@ -125,10 +125,10 @@ def create_rdf_from_json(json_data):
 
 
 if __name__ == "__main__":
-    with open("./data.json", "r", encoding="utf-8") as file:
+    with open("data/data.json", "r", encoding="utf-8") as file:
         json_data = json.load(file)
         customer_data = json_data["customers"]
 
         rdf_graph = create_rdf_from_json(customer_data)
 
-        rdf_graph.serialize(destination="fraud_abox.ttl", format="turtle")
+        rdf_graph.serialize(destination="ontology/fraud_abox.ttl", format="turtle")

@@ -1,0 +1,12 @@
+PREFIX ext: <http://example.org/fraud/tbox#>
+
+SELECT DISTINCT ?customer
+WHERE {
+    ?invoice ext:paymentStatus "overdue" ;
+             ext:invoiceFor ?order .
+    ?order ext:placedBy ?customer .
+
+    ?customer ext:hasIdentifier ?identifier .
+    ?other    ext:hasIdentifier ?identifier .
+    FILTER(?customer != ?other)
+}

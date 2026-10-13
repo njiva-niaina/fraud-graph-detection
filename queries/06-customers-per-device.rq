@@ -1,0 +1,8 @@
+PREFIX ext: <http://example.org/fraud/tbox#>
+
+SELECT ?device (COUNT(DISTINCT ?customer) AS ?customerCount)
+WHERE {
+    ?customer ext:usesDevice ?device .
+}
+GROUP BY ?device
+ORDER BY DESC(?customerCount) ?device

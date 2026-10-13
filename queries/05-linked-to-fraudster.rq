@@ -1,0 +1,9 @@
+PREFIX ext: <http://example.org/fraud/tbox#>
+
+SELECT DISTINCT ?customer
+WHERE {
+    ?fraudster a ext:FraudulentCustomer .
+    ?fraudster (ext:hasIdentifier/^ext:hasIdentifier)+ ?customer .
+    FILTER(?customer != ?fraudster)
+    FILTER NOT EXISTS { ?customer a ext:FraudulentCustomer }
+}

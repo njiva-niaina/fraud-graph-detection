@@ -1,0 +1,17 @@
+PREFIX ext: <http://example.org/fraud/tbox#>
+
+INSERT {
+    GRAPH <http://example.org/fraud/inferred> {
+        ?customer a ext:SuspiciousCustomer ;
+                  ext:distanceToFraud 1 .
+    }
+}
+WHERE {
+    ?fraudulentCustomer a ext:FraudulentCustomer ;
+                        ext:hasIdentifier ?id .
+    ?customer ext:hasIdentifier ?id .
+
+    FILTER(?customer != ?fraudulentCustomer)
+    FILTER NOT EXISTS { ?customer a ext:FraudulentCustomer }
+    FILTER NOT EXISTS { ?customer ext:distanceToFraud ?d }
+}

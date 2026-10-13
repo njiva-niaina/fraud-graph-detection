@@ -1,0 +1,9 @@
+PREFIX ext: <http://example.org/fraud/tbox#>
+
+SELECT ?customer1 ?customer2 ?iban
+WHERE {
+    ?customer1 ext:hasIban ?iban .
+    ?customer2 ext:hasIban ?iban .
+    FILTER(STR(?customer1) < STR(?customer2))
+}
+ORDER BY ?iban

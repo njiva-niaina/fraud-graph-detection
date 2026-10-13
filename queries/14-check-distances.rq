@@ -1,0 +1,5 @@
+PREFIX ext: <http://example.org/fraud/tbox#>
+
+SELECT ?customer ?distance
+WHERE { ?customer ext:distanceToFraud ?distance }
+ORDER BY ?distance ?customer

@@ -1,6 +1,10 @@
 @prefix exa: <http://example.org/fraud/abox#> .
 @prefix ext: <http://example.org/fraud/tbox#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/fraud/abox> a owl:Ontology ;
+    owl:imports <http://example.org/fraud/tbox> .
 
 exa:customer_C008 a ext:Customer ;
     ext:fullName "Hervé Richard"^^xsd:string ;

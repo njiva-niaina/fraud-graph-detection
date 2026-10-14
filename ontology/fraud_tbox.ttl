@@ -8,6 +8,7 @@
 @base <http://example.org/fraud/tbox#> .
 
 <http://example.org/fraud/tbox> rdf:type owl:Ontology ;
+                                 owl:imports <file:/home/njiva/Bureau/fraud-detection-graph/ontology/fraud_abox.ttl> ;
                                  rdfs:comment "An ontology for representing customers, identifiers, orders, invoices, and relationships that can support fraud detection and risk analysis."@en ;
                                  rdfs:label "Fraud Detection Ontology"@en .
 
@@ -96,7 +97,11 @@ ext:placedBy rdf:type owl:ObjectProperty ;
 ext:sharesIdentifierWith rdf:type owl:ObjectProperty ,
                                   owl:SymmetricProperty ;
                          rdfs:domain ext:Customer ;
-                         rdfs:range ext:Customer .
+                         rdfs:range ext:Customer ;
+                         owl:propertyChainAxiom ( ext:hasIdentifier
+                                                  [ owl:inverseOf ext:hasIdentifier
+                                                  ]
+                                                ) .
 
 
 ###  http://example.org/fraud/tbox#usesDevice

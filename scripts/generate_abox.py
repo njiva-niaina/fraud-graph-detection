@@ -1,8 +1,8 @@
 import re
 import hashlib
 import json
-from rdflib import Graph, Namespace, Literal, RDF
-from rdflib.namespace import XSD
+from rdflib import Graph, Namespace, Literal, RDF, URIRef
+from rdflib.namespace import XSD, OWL
 
 EXA = Namespace("http://example.org/fraud/abox#")
 EXT = Namespace("http://example.org/fraud/tbox#")
@@ -14,6 +14,10 @@ def create_rdf_from_json(json_data):
     g.bind("ext", EXT)
     g.bind("exa", EXA)
     g.bind("xsd", XSD)
+
+    abox_iri = URIRef("http://example.org/fraud/abox")
+    g.add((abox_iri, RDF.type, OWL.Ontology))
+    g.add((abox_iri, OWL.imports, URIRef("http://example.org/fraud/tbox")))
 
     for customer in json_data:
         customer_uri = EXA[f"customer_{customer['id']}"]
@@ -46,7 +50,8 @@ def create_rdf_from_json(json_data):
             g.add((customer_uri, EXT.hasIban, iban_uri))
 
         for phone in customer["phones"]:
-            phone_uri = EXA[f"phone_{re.sub(r'\D', '', phone.replace(' ', ''))}"]
+            phone_digits = re.sub(r"\D", "", phone)
+            phone_uri = EXA[f"phone_{phone_digits}"]
 
             g.add((phone_uri, RDF.type, EXT.PhoneNumber))
             g.add((phone_uri, EXT.identifierValue, Literal(phone, datatype=XSD.string)))
